@@ -1,7 +1,7 @@
-* {
-    border: 1px solid red;
-    
-}
+//* {
+//    border: 1px solid red;
+//    
+//}
 
 @media (max-width:399px){
     .container {
@@ -39,30 +39,60 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background: rgb(100,100,100);
+    background: -webkit-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
+    background: -o-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
+    background: -moz-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
+    background: linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
     
 }
 
-//@media (max-width:399px){
-//    
-//}
-//    
-//
-//@media (min-width: 400px) and (max-width: 800px) 
-//
+@media (max-width: 400px){
+     .col-1{
+      height: 50px;
+      float: left;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      a {
+        text-decoration: none;
+        font-size: 1.1em;
+        color: $menu-color;
+        padding: 5px;
+        }
+    }  
+}
+
+@media (min-width: 400px) and (max-width: 800px){
+    .col-1{
+      height: 50px;
+      float: left;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      a {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: $menu-color;
+        padding: 5px;
+        }
+    }  
+}
+
 @media (min-width: 800px){
   .col-1{
-     height: 50px;
-     float: left;
-     a {
-        list-style: none;
+      height: 50px;
+      float: left;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      a {
         text-decoration: none;
-        font-size: $font-size;
-        color: black;
-        text-align: center;
-        vertical-align: middle; 
-     }
-} 
-  
+        font-size: 1.1em;
+        color: $menu-color;
+        padding: 5px;
+        }
+    } 
 }
 
 .container{
@@ -71,13 +101,33 @@ body {
         height: 500px;
         width: 100%;
         float: left;
+        background-color: 
         li {
             display: none;
+            width: 387px;
         }
     }
 }
 
-   
+
+ .chevrons {
+    display: flex;
+    justify-content: center;
+    .fa-chevron-left{
+       align-self: flex-start; 
+    }
+}
+
+
+
+.chevrons {
+    display: flex;
+    justify-content: center;
+    .fa-chevron-right{
+       align-self: flex-end; 
+    }
+}
+
 
 .slider {
     .visible{
@@ -95,3 +145,61 @@ body {
     }
 }
 
+
+.up_foot{
+        display: flex;
+        justify-content: flex-end;
+        .artist_contact {
+        float: left;
+        height: 50px;
+        li{
+            float: right;
+            width: 50px;
+            line-height: 50px;
+            vertical-align: middle;
+            list-style: none;
+            color: $menu-color;
+            a {
+                color: $menu-color;
+
+            }
+        }
+    }
+}
+
+
+.up_foot {
+    div {
+        width: 100px;
+        color: $menu-color;
+        line-height: 50px;
+        vertical-align: middle;
+    }
+}
+
+.bottom_foot {
+    div{
+        font-size: $font-size;  
+        color: grey;
+        line-height: 30px;
+        vertical-align: middle;
+       }
+}
+.bottom_foot {
+    height: 30px;
+   .author_contact {
+        float: left;
+   
+        li {
+            list-style: none;
+            float: right;
+            color: grey;
+            font-size: 20px;
+            width: 20px;
+            margin-left: 10px;
+            a {
+                color: grey;
+            }
+        }
+    } 
+}

@@ -19,14 +19,15 @@ var Files = {
 };
 //obiekt Files odpowiada za ścieżki do plików w naszym projekcie
 
-//gulp.task("css", function(){ <-- już tego nie potrzbujemy, kiedy mamy scss
-//    //utwórz zadanie css, które:
-//    
-//    return gulp.src(Files.css) // bierze wszystkie pliki css
-//        .pipe(concat("main.css")) //łączy je (concat) w jeden plik pod nazwą "main.css"
-//        .pipe(gulp.dest(Files.css_dest))//zapisuje we wskazanym folderze "css_dest"
-//        .pipe(browserSync.reload({stream:true})); // i na końcu odświeża przeglądarkę
-//});
+gulp.task("css", function(){ 
+//<-- już tego nie potrzbujemy, kiedy mamy scss
+    //utwórz zadanie css, które:
+    
+    return gulp.src(Files.css) // bierze wszystkie pliki css
+        .pipe(concat("style.css")) //łączy je (concat) w jeden plik pod nazwą "main.css"
+        .pipe(gulp.dest(Files.css_dest))//zapisuje we wskazanym folderze "css_dest"
+        .pipe(browserSync.reload({stream:true})); // i na końcu odświeża przeglądarkę
+});
 
 gulp.task("sass", function(){
    return sass(Files.scss, {
