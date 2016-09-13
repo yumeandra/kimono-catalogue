@@ -47,7 +47,7 @@
 @media (min-width: 800px) {
   /* line 31, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
   .container {
-    width: 1200px;
+    width: 1316px;
     margin: 0 auto; } }
 
 /* line 40, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
@@ -61,93 +61,173 @@ body {
 
 @media (max-width: 400px) {
   /* line 51, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
-  .col-1 {
-    height: 50px;
-    float: left;
-    list-style: none;
-    display: flex;
-    justify-content: center; }
-    /* line 57, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
-    .col-1 a {
-      text-decoration: none;
-      font-size: 1.1em;
-      color: whitesmoke;
-      padding: 5px; } }
+  .menu {
+    position: sticky; }
+    /* line 53, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    .menu .col-1 {
+      height: 50px;
+      float: left;
+      list-style: none;
+      display: flex;
+      justify-content: center; }
+      /* line 59, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+      .menu .col-1 a {
+        text-decoration: none;
+        font-size: 1.1em;
+        color: whitesmoke;
+        padding: 5px; } }
 
 @media (min-width: 400px) and (max-width: 800px) {
-  /* line 67, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
-  .col-1 {
-    height: 50px;
-    float: left;
-    list-style: none;
-    display: flex;
-    justify-content: center; }
-    /* line 73, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
-    .col-1 a {
-      text-decoration: none;
-      font-size: 1.5em;
-      color: whitesmoke;
-      padding: 5px; } }
+  /* line 70, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  .menu {
+    position: sticky; }
+    /* line 72, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    .menu .col-1 {
+      height: 50px;
+      float: left;
+      list-style: none;
+      display: flex;
+      justify-content: center; }
+      /* line 78, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+      .menu .col-1 a {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: whitesmoke;
+        padding: 5px; } }
 
 @media (min-width: 800px) {
-  /* line 83, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  /* line 89, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
   .col-1 {
     height: 50px;
     float: left;
     list-style: none;
     display: flex;
-    justify-content: center; }
-    /* line 89, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    justify-content: space-between; }
+    /* line 95, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
     .col-1 a {
       text-decoration: none;
       font-size: 1.1em;
       color: whitesmoke;
       padding: 5px; } }
 
-/* line 99, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
-.container .slider {
-  list-style: none;
-  height: 500px;
-  width: 100%;
-  float: left;
-  background-color: li;
-    background-color-display: none;
-    background-color-width: 387px; }
+/* line 106, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+section {
+  overflow: hidden; }
+  /* line 109, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  section .slider {
+    list-style: none;
+    height: 480px;
+    width: 2971px;
+    float: left; }
 
-/* line 113, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+/* line 121, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
 .chevrons {
   display: flex;
-  justify-content: center; }
-  /* line 116, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  justify-content: space-around; }
+  /* line 125, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
   .chevrons .fa-chevron-left {
     align-self: flex-start; }
 
-/* line 123, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+/* line 132, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
 .chevrons {
   display: flex;
-  justify-content: center; }
-  /* line 126, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  justify-content: space-between; }
+  /* line 135, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
   .chevrons .fa-chevron-right {
     align-self: flex-end; }
 
-/* line 133, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
-.slider .visible {
-  display: inline-block; }
+/* line 143, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+.hidden {
+  display: none; }
 
-/* line 142, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+/* line 146, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+.visible {
+  display: block; }
+
+@media (max-width: 399px) {
+  /* line 152, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  .slider {
+    height: 480px;
+    width: 2971px; }
+    /* line 155, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    .slider .img {
+      width: 100%;
+      display: block;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      /* line 160, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+      .slider .img img {
+        width: 329px;
+        height: 480px; } }
+
+@media (min-width: 400px) and (max-width: 800px) {
+  /* line 169, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  .slider {
+    height: 480px;
+    width: 2971px; }
+    /* line 172, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    .slider .img {
+      width: 50%;
+      float: left;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      /* line 177, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+      .slider .img img {
+        width: 329px;
+        height: 480px; } }
+
+@media (min-width: 801px) {
+  /* line 186, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  .slider {
+    left: 0;
+    position: relative;
+    float: left;
+    height: 480px;
+    width: 2971px; }
+    /* line 193, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    .slider .img {
+      float: left;
+      width: 329px;
+      height: 480px;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      /* line 199, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+      .slider .img img {
+        width: 329px;
+        height: 480px; } }
+
+/* line 209, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
 .img a {
+  position: relative;
+  display: block;
   list-style: none;
   text-decoration: none; }
+  /* line 214, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  .img a .notes {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    color: #131313;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    padding: 2em; }
+    /* line 223, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    .img a .notes h2 {
+      text-align: center; }
+    /* line 226, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    .img a .notes .object {
+      list-style: none; }
 
-/* line 149, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+/* line 244, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
 .up_foot {
   display: flex;
   justify-content: flex-end; }
-  /* line 152, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  /* line 247, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
   .up_foot .artist_contact {
     float: left;
     height: 50px; }
-    /* line 155, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    /* line 250, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
     .up_foot .artist_contact li {
       float: right;
       width: 50px;
@@ -155,31 +235,31 @@ body {
       vertical-align: middle;
       list-style: none;
       color: whitesmoke; }
-      /* line 162, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+      /* line 257, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
       .up_foot .artist_contact li a {
         color: whitesmoke; }
 
-/* line 172, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+/* line 267, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
 .up_foot div {
   width: 100px;
   color: whitesmoke;
   line-height: 50px;
   vertical-align: middle; }
 
-/* line 181, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+/* line 276, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
 .bottom_foot div {
   font-size: 12px;
   color: grey;
   line-height: 30px;
   vertical-align: middle; }
 
-/* line 188, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+/* line 283, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
 .bottom_foot {
   height: 30px; }
-  /* line 190, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+  /* line 285, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
   .bottom_foot .author_contact {
     float: left; }
-    /* line 193, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+    /* line 288, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
     .bottom_foot .author_contact li {
       list-style: none;
       float: right;
@@ -187,7 +267,7 @@ body {
       font-size: 20px;
       width: 20px;
       margin-left: 10px; }
-      /* line 200, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
+      /* line 295, C:/xampp/htdocs/GitHub/kimono-catalogue/sass/partials/_base.scss */
       .bottom_foot .author_contact li a {
         color: grey; }
 

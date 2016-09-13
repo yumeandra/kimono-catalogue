@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <script src="./js/app.js" type="text/javascript"></script>
+    
 </head>
 <body>
     <header>
@@ -33,16 +33,82 @@
         </div>
         
         <ul class="slider">
-            <li class="img mySlides"><a href="./images/first-sample/1.jpg"></a></li>
-            <li class="img mySlides"><a href="./images/kimono-open-air/1.jpg"></a></li>
-            <li class="img mySlides"><a href="./images/kimono-wedding/1b.jpg"></a></li>
-            <li class="img mySlides"><a href="./images/table-cloth/1.jpg"></a></li>
-            <li class="img mySlides"><a href="./images/kimono-tsunami/1.jpg"></a></li>
-            <li class="img mySlides"><a href="./images/onna-bugeisha/1.jpg"></a></li>
-            <li class="img mySlides"><a href="./images/kimono-doily/1.jpg"></a></li>
-            <li class="img mySlides"><a href="./images/tailored-kimono/1.jpg"></a></li>
-            <li class="img mySlides"><a href="./images/kimono-hime/2.jpg"></a></li>
-            <li class="img mySlides"><a href="#"></a></li>
+            <li class="img mySlides"><a href="#"><img src="./images/first-sample/1.jpg"> <div class="notes hidden">
+                    <h2>First Sample / 初めのサンプル </h2>
+                    <ul class="object">
+                        <li>Material: Raw Cotton (kimono), cotton bed sheet (obi), silvered steel (fork)</li>
+                        <li>Technique: Print on fabric</li>
+                        <li>Year: 2010</li>
+                    </ul>
+                </div>
+                </a>
+               
+            </li>
+            <li class="img mySlides"><a href="#"><img src="./images/kimono-open-air/1.jpg"><div class="notes hidden">
+                    <h2>Kimono Exchangeable. Open Air</h2>
+                    <ul class="object">
+                        <li>Material: Raw cotton</li>
+                        <li>Technique: Screen printing</li>
+                        <li>Year: 2011</li>
+                    </ul>
+                </div></a></li>
+            <li class="img mySlides"><a href="#"><img src="./images/kimono-wedding/1b.jpg"><div class="notes hidden">
+                    <h2>Wedding Kimono</h2>
+                    <ul class="object">
+                        <li>Material: Linen damask</li>
+                        <li>Technique: Screen printing</li>
+                        <li>Year: 2011</li>
+                    </ul>
+                </div></a></li>
+            <li class="img mySlides"><a href="#"><img src="./images/table-cloth/1.jpg"><div class="notes hidden">
+                    <h2>Chiyono / ちよの</h2>
+                    <ul class="object">
+                        <li>Material: Hand-woven linen</li>
+                        <li>Technique: Patchwork</li>
+                        <li>Year: 2012</li>
+                    </ul>
+                </div></a></li>
+            <li class="img mySlides"><a href="#"><img src="./images/kimono-tsunami/1.jpg"><div class="notes hidden">
+                    <h2>Tsunami</h2>
+                    <ul class="object">
+                        <li>Material: Silk</li>
+                        <li>Technique: Print and paint</li>
+                        <li>Year: 2011</li>
+                    </ul>
+                </div></a></li>
+            <li class="img mySlides"><a href="#"><img src="./images/onna-bugeisha/1.jpg"><div class="notes hidden">
+                    <h2>Onna bugeisha / 女武芸者</h2>
+                    <ul class="object">
+                        <li>Material: Silk organza on the insided, nettle linen on the outside</li>
+                        <li>Technique: Screen printing</li>
+                        <li>Year: 2012</li>
+                    </ul>
+                </div></a></li>
+            <li class="img mySlides"><a href="#"><img src="./images/kimono-doily/1.jpg"><div class="notes hidden">
+                    <h2>Doily Kimono. Tea Ceremony / 茶会</h2>
+                    <ul class="object">
+                        <li>Material: Cotton doilies, silk organza</li>
+                        <li>Technique: Knitting, screen printing</li>
+                        <li>Year: 2011</li>
+                    </ul>
+                </div></a></li>
+            <li class="img mySlides"><a href="#"><img src="./images/tailored-kimono/1.jpg"><div class="notes hidden">
+                    <h2>Tailored Kimono</h2>
+                    <ul class="object">
+                        <li>Material: English wool</li>
+                        <li>Technique: Tailor sewing</li>
+                        <li>Year: 2012</li>
+                    </ul>
+                </div></a></li>
+            <li class="img mySlides"><a href="#"><img src="./images/kimono-hime/1.jpg"><div class="notes hidden">
+                    <h2>Knitted Kimono and Obi</h2>
+                    <ul class="object">
+                        <li>Material: Wool and silk yarns</li>
+                        <li>Technique: Knitting</li>
+                        <li>Year: 2012</li>
+                    </ul>
+                </div></a></li>
+<!--            <li class="img mySlides"><a href="#"><img src="#"></a></li>-->
         </ul>
         
     </section>
@@ -68,5 +134,7 @@
             </ul>
         </div>
     </footer>
+    <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="./js/app.js" type="text/javascript"></script>
 </body>
 </html>

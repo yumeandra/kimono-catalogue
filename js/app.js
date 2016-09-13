@@ -1,30 +1,66 @@
-document.addEventListener("DOMContentLoaded", function(){
-    var next = document.querySelector('.fa-chevron-right');
-    var prev = document.querySelector('.fa-chevron-left');
-    var lis = document.querySelectorAll('.mySlides');
+$(function(){
+    function sliding() {
+   var slide = $(".slider");
+    var images = slide.find(".img");
+    var prev = $(".fa-chevron-left");
+    var next = $(".fa-chevron-right");
+    var pos = slide.position();
     var index = 0;
+    var width = images.eq(0).width();
     
-    console.log(next, prev, lis, index);
+    slide.width(images.length * width);
     
-    lis[0].classList.add('visible');
+     console.log(slide, next, pos, images);
     
-    next.addEventListener('click', function(){
-        lis[index].classList.remove('visible');
-        index++;
-        if(index > lis.length-1) {
+    
+        
+    prev.on("click", function(){
+//       console.log(prev); 
+        ++index;
+        if(index > images.length -3 ) {
+//            index = 0; //przerzuca nas do pierwszego slajdu
+            index = images.length - 3;
+        }
+        
+        slide.animate({left: -(index*width)});
+            
+     });
+    
+    next.on("click", function(){
+//        console.log(next);
+        --index;
+        if(index < 0){
             index = 0;
         }
-        
-        lis[index].classList.add('visible');
-    });
+        slide.animate({left: -(index*width)});
+        });
     
-    prev.addEventListener('click', function(){
-        lis[index].classList.remove('visible');
-        index--;
-        if(index < 0) {
-            index = lis.length-1;
-        }
+    }
+    sliding();
+    
+    function noteAppearing(){
+        var slide = $(".slider");
+        var image = slide.find("li");
+        console.log(slide, image);
         
-        lis[index].classList.add('visible');
-    });
+        image.on("mouseenter", function(){
+           var note = $(this).find(".notes").slideDown(2000).addClass("visible");
+            console.log(note);
+//            note.slideUp(1000);
+            
+        });
+        
+        image.on("mouseleave", function(){
+             var note = $(this).find(".notes").slideUp(2000).addClass("hidden");
+        });
+        
+    }
+    
+    noteAppearing();
+    
+    
 });
+
+//for (i = 0; i < cars.length; i++) { 
+//    text += cars[i] + "<br>";
+//}

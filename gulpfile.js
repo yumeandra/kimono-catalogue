@@ -10,7 +10,7 @@ var sourcemaps = require("gulp-sourcemaps"); //pozwoli nam dodawać mapy do plik
 
 var Files = {
     html: "./index.php",
-//    css: ["./css/style-1.css", "./css/style-2.css", "./css/style-3.css"],
+    css: ["./css/style.css"],
     css_dest: "./css", //tworzę folder docelowy dla plików css
 //    js: ["./js/1.js", "./js/2.js", "./js/3.js"],
     js_dest: "./js",
