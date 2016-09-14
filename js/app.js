@@ -51,7 +51,7 @@ $(function(){
         });
         
         image.on("mouseleave", function(){
-             var note = $(this).find(".notes").slideUp(2000).addClass("hidden");
+             var note = $(this).find(".notes").fadeOut(500).addClass("hidden");
         });
         
     }

@@ -1,0 +1,40 @@
+h1 {
+    color: $menu-color;
+}
+
+#map {
+    width: 100%;
+    height: 550px;
+    border: 1px solid black;
+}
+
+.two {
+    color: $menu-color;
+    font-size: 1em;
+    line-height: 2em;
+    ul {
+        list-style: none;
+        li{
+            span{
+                font-size: 1.5em;
+            }
+            a{
+//               text-decoration: none;
+                color: white;
+                &:hover{
+                    color: rgb(150,150,150);
+                }
+                &:visited{
+                    color: rgb(150,150,255);
+                }
+            }
+        }
+    }
+}
+
+.venue {
+    height: 200px;
+    width: 50%;
+    border-bottom: 1px solid $menu-color;
+    margin-bottom: 40px;
+}
