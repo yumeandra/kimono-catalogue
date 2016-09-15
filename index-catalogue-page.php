@@ -55,7 +55,7 @@
                         <li>Year: 2011</li>
                     </ul>
                 <br>
-                <p>The kimono was sewn of old damask fabrics, previously used as tablecloth on the excursion ship Hjalmaren which sailed along the canal of the same name.<br> The textiles were hand-woven specifically for the luxury ship, probably in the early 19th century.</p>
+                <p>The kimono was sewn of old damask fabrics, previously used as tablecloth on the excursion ship Hjälmaren which sailed along the canal of the same name.<br> The textiles were hand-woven specifically for the luxury ship, probably in the early 19<sup>th</sup> century.</p>
                 <a href="#">Read more about it</a>
             </div>
         </article>
@@ -86,7 +86,7 @@
                         <li>Year: 2011</li>
                     </ul>
                 <br>
-                Late in the evening on 10th March 2011, I was working on some materials for an exhibition. Several two-metre-long breadths of silk were washed after the prints on them had been fixed. <br>As it turned out, all the fabrics broke in washing, in a way that I had never seen before.
+                Late in the evening on 10<sup>th</sup> March 2011, I was working on some materials for an exhibition. Several two-metre-long breadths of silk were washed after the prints on them had been fixed. <br>As it turned out, all the fabrics broke in washing, in a way that I had never seen before.
                 <p></p>
                 <a href="#">Read more about it</a>
             </div>
@@ -118,7 +118,7 @@
                         <li>Year: 2011</li>
                     </ul>
                 <br>
-                <p>I hope this kimono will make you reflect on the value of women's handicraft. <br> It was made of knitted cotton doilies, 2 zlotys each. <br>The garment is made of some seventy snowflake-shaped doilies and is worth thousand of hours of women's work. It takes twnty hours or more to knit one doily, which means about 1400 hours in total, plus 100 hours to put 'snowflakes' together - to create a kimono.</p>
+                <p>I hope this kimono will make you reflect on the value of women's handicraft. <br> It was made of knitted cotton doilies, 2 zlotys each. <br>The garment is made of some seventy snowflake-shaped doilies and is worth thousand of hours of women's work. It takes twenty hours or more to knit one doily, which means about 1400 hours in total, plus 100 hours to put 'snowflakes' together - to create a kimono.</p>
                 <a href="#">Read more about it</a>
             </div>
         </article>
@@ -148,7 +148,7 @@
                         <li>Year: 2012</li>
                     </ul>
                 <br>
-                <p>This is one of my favourites in the Kimono Re-Construction project.<br> This kimono comprises my collected memories. It was knitted in wool and silk accumulated over the years of work in fashion design. Some of the yarn was handmade in Sri Lank using and old bicycle wheel (in lieu of a proper spinning wheel)...</p>
+                <p>This is one of my favourites in the Kimono Re-Construction project.<br> This kimono comprises my collected memories. It was knitted in wool and silk accumulated over the years of work in fashion design. Some of the yarn was handmade in Sri Lanka using and old bicycle wheel (in lieu of a proper spinning wheel)...</p>
                 <a href="#">Read more about it</a>
             </div>
         </article>

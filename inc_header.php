@@ -10,6 +10,7 @@
                 <li class="col-1"><a href="index-building-space.php">PERFORMANCES</a></li>
                 <li class="col-1"><a href="index-building-space.php">BUY A PIECE</a></li>
             </ul>
+            <div id="home_page"><a href="index.php"/><img src="images/home_w32.png"/></a></div>
         </nav>
         </div>
    
