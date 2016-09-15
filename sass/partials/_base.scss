@@ -39,7 +39,8 @@
 
 
 body {
-    font-family: 'Lato', sans-serif;
+//    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Antic', sans-serif;
     background: rgb(100,100,100);
     background: -webkit-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
     background: -o-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
@@ -58,6 +59,9 @@ body {
           display: flex;
           justify-content: center;
           a {
+            width: 100%;
+            display: block;
+            text-align: center;
             text-decoration: none;
             font-size: 1.1em;
             color: $menu-color;
@@ -77,6 +81,9 @@ body {
           display: flex;
           justify-content: center;
           a {
+            width: 100%;
+            display: block;
+            text-align: center;
             text-decoration: none;
             font-size: 1.5em;
             color: $menu-color;
@@ -94,6 +101,9 @@ body {
       display: flex;
       justify-content: space-between;
       a {
+        width: 100%;
+        display: block;
+        text-align: center;
         text-decoration: none;
         font-size: 1.1em;
         color: $menu-color;

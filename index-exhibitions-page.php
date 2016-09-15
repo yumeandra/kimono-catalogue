@@ -53,9 +53,9 @@
             map.setMapTypeId('greyish_map');
             
           
-            var marker1 = new google.maps.Marker({ position: StokholmLatLng, map: map, title: 'Museum of Far Eastern Antiquities', icon: markerIcon});
+            var marker1 = new google.maps.Marker({ position: StokholmLatLng, map: map, title: 'Museum of Far Eastern Antiquities', icon: markerIcon, class: "sweden"});
               
-            var marker2 = new google.maps.Marker({ position: MangghaLatLng, map: map, draggable: true, title: 'Manggha Museum of Japanese Art and Technology', icon: markerIcon});
+            var marker2 = new google.maps.Marker({ position: MangghaLatLng, map: map, draggable: true, title: 'Manggha Museum of Japanese Art and Technology', icon: markerIcon, class: "poland"});
             
             var places = [];
             places.push(marker1, marker2);

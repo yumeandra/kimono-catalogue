@@ -5,7 +5,8 @@
     <title>Kimono Catalogue</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<!--    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     
 </head>
 <body>
@@ -14,12 +15,12 @@
                <!-- navigation - menu-->
         <nav>
             <ul class="menu">
-                <li class="col-1"><a href="#">ARTIST</a></li>
-                <li class="col-1"><a href="#">KI-MONO PROJECT</a></li>
-                <li class="col-1"><a href="#">CATALOGUE</a></li>
+                <li class="col-1"><a href="index-building-space.php">ARTIST</a></li>
+                <li class="col-1"><a href="index-building-space.php">KI-MONO PROJECT</a></li>
+                <li class="col-1"><a href="index-catalogue-page.php">CATALOGUE</a></li>
                 <li class="col-1"><a href="index-exhibitions-page.php">EXHIBITIONS</a></li>
-                <li class="col-1"><a href="#">PERFORMANCES</a></li>
-                <li class="col-1"><a href="#">BUY A PIECE</a></li>
+                <li class="col-1"><a href="index-building-space.php">PERFORMANCES</a></li>
+                <li class="col-1"><a href="index-building-space.php">BUY A PIECE</a></li>
             </ul>
         </nav>
         </div>
@@ -113,7 +114,7 @@
         
     </section>
     <footer>
-        <!--    contact - artist wesite social media-->
+        <!--    contact - artist website social media-->
         <div class="container up_foot">
             <div class="artist_contact">CONTACT:</div>
             <ul class="artist_contact">

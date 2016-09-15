@@ -1,0 +1,96 @@
+div[class|="photo"] {
+    height: 500px;
+    float: left;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+}
+
+section {
+    
+    article{
+    width: 100%;
+    height: 550px; 
+    padding: 4%;
+    }
+    
+}
+
+article:nth-child(2n+1) {
+    background: rgb(100,100,100);
+    background: -webkit-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
+    background: -o-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
+    background: -moz-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
+    background: linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
+}
+
+article:nth-child(2n+2){
+    background: rgb(100,100,100);
+    background: -webkit-linear-gradient(top, rgb(0,0,0), rgb(100,100,100));
+    background: -o-linear-gradient(top, rgb(0,0,0), rgb(100,100,100));
+    background: -moz-linear-gradient(top, rgb(0,0,0), rgb(100,100,100));
+    background: linear-gradient(top, rgb(0,0,0), rgb(100,100,100)); 
+}
+
+
+
+.photo-one {
+    background-image: url("../images/first-sample/1.jpg");
+}
+
+.photo-two {
+    background-image: url("../images/kimono-open-air/1_h.jpg");
+}
+
+.photo-three {
+    background-image: url("../images/kimono-wedding/2.jpg");
+}
+
+.photo-four {
+    background-image: url("../images/table-cloth/1.jpg");
+}
+
+.photo-five {
+    background-image: url("../images/kimono-tsunami/2.jpg");
+}
+
+
+.photo-six {
+    background-image: url("../images/onna-bugeisha/3.jpg");
+}
+
+.photo-seven {
+    background-image: url("../images/kimono-doily/3.jpg");
+}
+
+.photo-eight {
+    background-image: url("../images/tailored-kimono/2.jpg");
+}
+
+.photo-nine {
+    background-image: url("../images/kimono-hime/3.jpg");
+}
+
+.description {
+    margin-top: 3%;
+    height: 500px;
+    float: left;
+    color: $menu-color;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    ul {
+        color: $menu-color;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        color: $link-color;
+        text-align: right;
+    }
+    
+}
+
+p::first-line{
+    font-size: 1.5em;
+}

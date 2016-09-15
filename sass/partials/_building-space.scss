@@ -1,0 +1,24 @@
+
+.info {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    span{
+    display:block;
+    width: 100%;
+    color: $menu-color;
+    font-size: 2em;
+    text-align: center;
+        a{
+            text-decoration: none;
+            color: $link-color;
+        }
+    }
+    img{
+        width: 128px;
+        height: 128px;
+    }
+    
+}
