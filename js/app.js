@@ -2,38 +2,81 @@ $(function(){
     function sliding() {
    var slide = $(".slider");
     var images = slide.find(".img");
-    var prev = $(".fa-chevron-left");
-    var next = $(".fa-chevron-right");
+    var firstImage = slide.find(".firstImage");
+    var secondImage = slide.find(".secondImage");
+    var thirdImage = slide.find(".thirdImage");
+    var fouthImage = slide.find(".fourthImage");
+    var fifthImage = slide.find(".fifthImage");
+    var sixthImage = slide.find(".sixthImage");
+    var seventhImage = slide.find(".seventhImage");
+    var eigthImage = slide.find(".eightImage");
+    var ninthImage = slide.find(".ninthImage");
+    var prev = $(".fa-chevron-circle-left");
+    var next = $(".fa-chevron-circle-right");
     var pos = slide.position();
-    var index = 0;
+    var index = 4;
     var width = images.eq(0).width();
     
-    slide.width(images.length * width);
+//    console.log(firstImage);
+        
+    firstImage.clone().appendTo(slide);
+    secondImage.clone().appendTo(slide);
+    thirdImage.clone().appendTo(slide);
+    fouthImage.clone().appendTo(slide);
+        
     
-     console.log(slide, next, pos, images);
+    ninthImage.clone().prependTo(slide);
+    eigthImage.clone().prependTo(slide);
+    seventhImage.clone().prependTo(slide);
+    sixthImage.clone().prependTo(slide);
+        
+    slide.width((images.length + 8) * width);
+    
+    slide.css("left", (-index*width)+"px");
+    
     
     
         
     prev.on("click", function(){
 //       console.log(prev); 
         ++index;
-        if(index > images.length -3 ) {
+        if(index > images.length ) {
 //            index = 0; //przerzuca nas do pierwszego slajdu
-            index = images.length - 3;
+            index = images.length;
         }
         
-        slide.animate({left: -(index*width)});
+        slide.animate({left: -(index*width)}, function(){
+            console.log(index, images.length);    
             
+            if(index == images.length){
+                index = 0;
+                console.log(index);
+                slide.css("left", ((index * width)+"px"));
+                
+            }
+        });
+         
+        
      });
     
     next.on("click", function(){
 //        console.log(next);
+//         console.log(index, images.length);
         --index;
         if(index < 0){
             index = 0;
         }
-        slide.animate({left: -(index*width)});
+            slide.animate({left: -(index*width)}, function(){
+                console.log(index, images.length);
+                if(index == 0){
+                    index = images.length;
+//                    console.log(index);
+                    slide.css("left", (-(index * width)+"px"));
+                    
+                }
+            });
         });
+//    
     
     }
     sliding();
@@ -41,11 +84,11 @@ $(function(){
     function noteAppearing(){
         var slide = $(".slider");
         var image = slide.find("li");
-        console.log(slide, image);
+//        console.log(slide, image);
         
         image.on("mouseenter", function(){
            var note = $(this).find(".notes").slideDown(2000).addClass("visible");
-            console.log(note);
+//            console.log(note);
 //            note.slideUp(1000);
             
         });
@@ -58,9 +101,36 @@ $(function(){
     
     noteAppearing();
     
+    var nav = $("nav");
+    var off = nav.offset();
+    var top = off.top;
+//    console.log(nav, off, top);
     
+    $(window).on("scroll", function(){
+        console.log("scroll-roll-roll...")
+        var scrollTop = $(document).scrollTop();
+//        console.log(scrollTop);
+        
+        if(scrollTop > top){
+            nav.addClass("sticky");
+        } else {
+            menu.removeClass("sticky");
+        }
+        
+    });
+    
+    $(window).on("resize", function(){
+//        console.log("okno się zmienia");
+         if (nav.hasClass("sticky")){
+            top = off.top; 
+//            console.log(off, top);
+         } else {
+            top = nav.offset().top;
+//             console.log(top);
+         }
+    });
+    
+    
+        
 });
 
-//for (i = 0; i < cars.length; i++) { 
-//    text += cars[i] + "<br>";
-//}

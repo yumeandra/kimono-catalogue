@@ -62,14 +62,14 @@
               ],
             {name: 'Greyish Map'});
             
-            map = new google.maps.Map(document.getElementById('map'), {center: {lat: 52.52000659999999, lng: 13.404953999999975}, zoom: 4, mapTypeControlOptions: { mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',          'greyish_map']
+            map = new google.maps.Map(document.getElementById('map'), {center: {lat: 52.52000659999999, lng: 13.404953999999975}, zoom: 4, mapTypeControlOptions: { mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain', 'greyish_map']
           }});
               
             map.mapTypes.set('greyish_map', styledMapType);
             map.setMapTypeId('greyish_map');
             
           
-            var marker1 = new google.maps.Marker({ position: StokholmLatLng, map: map, title: 'Museum of Far Eastern Antiquities', icon: markerIcon, class: "sweden"});
+            var marker1 = new google.maps.Marker({ position: StokholmLatLng, map: map, draggable: true, title: 'Museum of Far Eastern Antiquities', icon: markerIcon, class: "sweden"});
               
             var marker2 = new google.maps.Marker({ position: MangghaLatLng, map: map, draggable: true, title: 'Manggha Museum of Japanese Art and Technology', icon: markerIcon, class: "poland"});
             
@@ -96,7 +96,20 @@
                 var pin = places[index];
                 pin.setAnimation(null);
             });
-            
+              
+              places[0].addListener("click", function(){
+                  console.log(this.class);
+                  
+                                  
+                  $("html, body").animate({scrollTop: $(".sweden").offset().top}, 1000);
+                  
+                  
+              });
+              
+                places[1].addListener("click", function(){
+                   $("html, body").animate({scrollTop: $(".poland").offset().top}, 1000); 
+                });
+
             
           }
     </script>
@@ -110,7 +123,7 @@
         <br>
         <h2>VENUES</h2>
         <br>
-        <div class="venue" data-marker="0">
+        <div class="venue sweden" data-marker="0">
         <ul class="stokholm" >
             <li class="title">Title: <span>Ki-mono Experience</span></li>
             <li>Venue: Museum of Eastern Antiques, Stockholm</li>
@@ -119,7 +132,7 @@
         </ul>
         </div>
         
-        <div class="venue" data-marker="1">
+        <div class="venue poland" data-marker="1">
             <ul class="manggha" >
             <li class="title">Title: <span>Kimono Un-perfect</span></li>
             <li>Venue: Manggha Museum of Japanese Art and Technology, Krakow</li>

@@ -29,7 +29,7 @@
     <!--section for 9 pieces one by one -->
     <section class="container">
         <article class="color-one">
-            <div class="photo-one col-4">
+            <div class="photo-one col-4"><a href="./index-catalogue-page-01.php"></a>
             </div>
             <div class="col-2 description">
                 <h2>First Sample / 初めのサンプル </h2>
@@ -41,7 +41,7 @@
                 <br>
                 <p>The first kimono made as part of the Kimono Re-Construction project. <br> I made it by unstitching old Japanese kimono to study their tailoring secrets. Only by patterning my work after them could I design new ones. The Japanese simplicity involves a lot, a real lot of detail.
                 </p>
-                <a href="#">Read more about it</a>
+                <a href="./index-catalogue-page-01.php">Read more about it</a>
             </div>
         </article>
    

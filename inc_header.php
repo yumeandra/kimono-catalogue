@@ -1,7 +1,7 @@
  <header>
         <div class="container">
                <!-- navigation - menu-->
-        <nav>
+        <nav class="col-6">
             <ul class="menu">
                 <li class="col-1"><a href="index-building-space.php">ARTIST</a></li>
                 <li class="col-1"><a href="index-building-space.php">KI-MONO PROJECT</a></li>

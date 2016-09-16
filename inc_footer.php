@@ -20,4 +20,6 @@
             </ul>
         </div>
     </footer>
+<script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="./js/app.js" type="text/javascript"></script>
     

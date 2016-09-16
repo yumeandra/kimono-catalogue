@@ -8,29 +8,29 @@
 <!--    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="./images/favicons/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="./images/favicons/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="./images/favicons/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="./images/favicons/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="./images/favicons/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="./images/favicons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="./images/favicons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
-<link rel="manifest" href="./images/favicons/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="./images/favicons/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     
 </head>
 <body>
     <header>
         <div class="container">
                <!-- navigation - menu-->
-        <nav>
+        <nav class="col-6">
             <ul class="menu">
                 <li class="col-1"><a href="index-building-space.php">ARTIST</a></li>
                 <li class="col-1"><a href="index-building-space.php">KI-MONO PROJECT</a></li>
@@ -53,7 +53,7 @@
             <a class="fa fa-chevron-circle-left fa-3x" aria-hidden="true"></a>
             <a class="fa fa-chevron-circle-right fa-3x" aria-hidden="true"></a>
             <ul class="slider">
-                <li class="img mySlides"><a href="#"><img src="./images/first-sample/1.jpg"> <div class="notes hidden">
+                <li class="img mySlides firstImage"><a href="#"><img src="./images/first-sample/1.jpg"> <div class="notes hidden">
                         <h2>First Sample / 初めのサンプル </h2>
                         <ul class="object">
                             <li>Material: Raw Cotton (kimono), cotton bed sheet (obi), silvered steel (fork)</li>
@@ -64,7 +64,7 @@
                     </a>
 
                 </li>
-                <li class="img mySlides"><a href="#"><img src="./images/kimono-open-air/1.jpg"><div class="notes hidden">
+                <li class="img mySlides secondImage"><a href="#"><img src="./images/kimono-open-air/1.jpg"><div class="notes hidden">
                         <h2>Kimono Exchangeable. Open Air</h2>
                         <ul class="object">
                             <li>Material: Raw cotton</li>
@@ -72,7 +72,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides"><a href="#"><img src="./images/kimono-wedding/1b.jpg"><div class="notes hidden">
+                <li class="img mySlides thirdImage"><a href="#"><img src="./images/kimono-wedding/1b.jpg"><div class="notes hidden">
                         <h2>Wedding Kimono</h2>
                         <ul class="object">
                             <li>Material: Linen damask</li>
@@ -80,7 +80,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides"><a href="#"><img src="./images/table-cloth/1.jpg"><div class="notes hidden">
+                <li class="img mySlides fourthImage"><a href="#"><img src="./images/table-cloth/1.jpg"><div class="notes hidden">
                         <h2>Chiyono / ちよの</h2>
                         <ul class="object">
                             <li>Material: Hand-woven linen</li>
@@ -88,7 +88,7 @@
                             <li>Year: 2012</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides"><a href="#"><img src="./images/kimono-tsunami/1.jpg"><div class="notes hidden">
+                <li class="img mySlides fifthImage"><a href="#"><img src="./images/kimono-tsunami/1.jpg"><div class="notes hidden">
                         <h2>Tsunami</h2>
                         <ul class="object">
                             <li>Material: Silk</li>
@@ -96,7 +96,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides"><a href="#"><img src="./images/onna-bugeisha/1.jpg"><div class="notes hidden">
+                <li class="img mySlides sixthImage"><a href="#"><img src="./images/onna-bugeisha/1.jpg"><div class="notes hidden">
                         <h2>Onna bugeisha / 女武芸者</h2>
                         <ul class="object">
                             <li>Material: Silk organza on the insided, nettle linen on the outside</li>
@@ -104,7 +104,7 @@
                             <li>Year: 2012</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides"><a href="#"><img src="./images/kimono-doily/1.jpg"><div class="notes hidden">
+                <li class="img mySlides seventhImage"><a href="#"><img src="./images/kimono-doily/1.jpg"><div class="notes hidden">
                         <h2>Doily Kimono. Tea Ceremony / 茶会</h2>
                         <ul class="object">
                             <li>Material: Cotton doilies, silk organza</li>
@@ -112,7 +112,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides"><a href="#"><img src="./images/tailored-kimono/1.jpg"><div class="notes hidden">
+                <li class="img mySlides eightImage"><a href="#"><img src="./images/tailored-kimono/1.jpg"><div class="notes hidden">
                         <h2>Tailored Kimono</h2>
                         <ul class="object">
                             <li>Material: English wool</li>
@@ -120,7 +120,7 @@
                             <li>Year: 2012</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides"><a href="#"><img src="./images/kimono-hime/1.jpg"><div class="notes hidden">
+                <li class="img mySlides ninthImage"><a href="#"><img src="./images/kimono-hime/1.jpg"><div class="notes hidden">
                         <h2>Knitted Kimono and Obi</h2>
                         <ul class="object">
                             <li>Material: Wool and silk yarns</li>

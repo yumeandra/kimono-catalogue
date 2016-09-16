@@ -32,9 +32,9 @@
      <section class="container info">
          <img src="./images/under_construction.jpg"/>
          <br>
-         <span>This site is under construction.<br>Please, come again a little bit later.
+         <span>This site is under construction.<br>Please, come back a little bit later.
          <br>
-        <a href="index.php">Back to home page</a>
+        <a href="index.php">Return to home page.</a>
          </span>
          
      </section>
