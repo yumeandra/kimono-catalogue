@@ -39,7 +39,7 @@ article:nth-child(2n+2){
 
 
 .photo-one {
-    background-image: url("../images/first-sample/1.jpg");
+    background-image: url("../images/first-sample/2-double.jpg");
 }
 
 .photo-two {
@@ -93,9 +93,8 @@ article:nth-child(2n+2){
         color: $link-color;
         text-align: right;
     }
-    
-}
-
-p::first-line{
+    p::first-line{
     font-size: 1.5em;
 }
+}
+

@@ -64,7 +64,7 @@
                     </a>
 
                 </li>
-                <li class="img mySlides secondImage"><a href="#"><img src="./images/kimono-open-air/1.jpg"><div class="notes hidden">
+                <li class="img mySlides secondImage"><a href="#"><img src="./images/kimono-open-air/2-part.jpg"><div class="notes hidden">
                         <h2>Kimono Exchangeable. Open Air</h2>
                         <ul class="object">
                             <li>Material: Raw cotton</li>
@@ -72,7 +72,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides thirdImage"><a href="#"><img src="./images/kimono-wedding/1b.jpg"><div class="notes hidden">
+                <li class="img mySlides thirdImage"><a href="#"><img src="./images/kimono-wedding/1_detail.jpg"><div class="notes hidden">
                         <h2>Wedding Kimono</h2>
                         <ul class="object">
                             <li>Material: Linen damask</li>
@@ -80,7 +80,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides fourthImage"><a href="#"><img src="./images/table-cloth/1.jpg"><div class="notes hidden">
+                <li class="img mySlides fourthImage"><a href="#"><img src="./images/table-cloth/set-narrow.jpg"><div class="notes hidden">
                         <h2>Chiyono / ちよの</h2>
                         <ul class="object">
                             <li>Material: Hand-woven linen</li>
@@ -88,7 +88,7 @@
                             <li>Year: 2012</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides fifthImage"><a href="#"><img src="./images/kimono-tsunami/1.jpg"><div class="notes hidden">
+                <li class="img mySlides fifthImage"><a href="#"><img src="./images/kimono-tsunami/1-part.jpg"><div class="notes hidden">
                         <h2>Tsunami</h2>
                         <ul class="object">
                             <li>Material: Silk</li>
@@ -104,7 +104,7 @@
                             <li>Year: 2012</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides seventhImage"><a href="#"><img src="./images/kimono-doily/1.jpg"><div class="notes hidden">
+                <li class="img mySlides seventhImage"><a href="#"><img src="./images/kimono-doily/2-half.jpg"><div class="notes hidden">
                         <h2>Doily Kimono. Tea Ceremony / 茶会</h2>
                         <ul class="object">
                             <li>Material: Cotton doilies, silk organza</li>
@@ -112,7 +112,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides eightImage"><a href="#"><img src="./images/tailored-kimono/1.jpg"><div class="notes hidden">
+                <li class="img mySlides eightImage"><a href="#"><img src="./images/tailored-kimono/2-part.jpg"><div class="notes hidden">
                         <h2>Tailored Kimono</h2>
                         <ul class="object">
                             <li>Material: English wool</li>

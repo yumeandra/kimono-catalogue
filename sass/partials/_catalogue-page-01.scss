@@ -1,0 +1,38 @@
+
+
+.artpiece {
+    float: left;
+    margin-top: 85px;
+}
+.descript {
+    padding: 1%;
+    margin-top: 85px;
+    height: 200px;
+    color: $menu-color;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    float:left;
+    li{
+        list-style: none;
+    }
+}
+
+.text {
+    padding: 1%;
+    color: $menu-color;
+    float: left;
+    span {
+        display:block;
+        text-align: right;
+    }
+    p{
+        a{
+            color: $link-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.media {
+    float:left;
+}

@@ -56,7 +56,7 @@
                     </ul>
                 <br>
                 <p>In the past, kimono used to be unstitched before washing and then hand-sewn back together. As the garment is made from a considerable length of fabric, it is easy to alter it to fit another person.</p>
-                <a href="#">Read more about it</a>
+                <a href="index-catalogue-page-02.php">Read more about it</a>
             </div>
         </article>
         
