@@ -47,7 +47,14 @@ body {
     background: -moz-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
     background: linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
     
+
 }
+
+
+.japanese {
+    font-family: '07logotypegothic-condenseRg', serif;
+}
+            
 
 @media (max-width: 400px){
     .menu{
@@ -217,7 +224,10 @@ body {
     left: 0;
 }
 
-a:hover {
+a:hover:not(.fa) {
     text-decoration: underline!important;
+   
 }
 
+
+   

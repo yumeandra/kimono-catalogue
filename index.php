@@ -5,7 +5,6 @@
     <title>Kimono Catalogue</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
-<!--    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
@@ -24,7 +23,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
+    <link rel="stylesheet" href="./fonts/LogoTypeGothicCondense/stylesheet.css">
 </head>
 <body>
     <header>
@@ -45,7 +44,7 @@
    
     </header>
     <section class="container">
-<!--        slider-->
+<!-- slider-->
        
             
         
@@ -53,8 +52,9 @@
             <a class="fa fa-chevron-circle-left fa-3x" aria-hidden="true"></a>
             <a class="fa fa-chevron-circle-right fa-3x" aria-hidden="true"></a>
             <ul class="slider">
-                <li class="img mySlides firstImage"><a href="#"><img src="./images/first-sample/1.jpg"> <div class="notes hidden">
-                        <h2>First Sample / 初めのサンプル </h2>
+                <li class="img mySlides firstImage"><a href="#"><img src="./images/first-sample/1.jpg"> 
+                    <div class="notes hidden">
+                        <h2>First Sample /<span class="japanese"> 初めのサンプル</span> </h2>
                         <ul class="object">
                             <li>Material: Raw Cotton (kimono), cotton bed sheet (obi), silvered steel (fork)</li>
                             <li>Technique: Print on fabric</li>
@@ -81,7 +81,7 @@
                         </ul>
                     </div></a></li>
                 <li class="img mySlides fourthImage"><a href="#"><img src="./images/table-cloth/set-narrow.jpg"><div class="notes hidden">
-                        <h2>Chiyono / ちよの</h2>
+                        <h2>Chiyono / <span class="japanese">ちよの</span></h2>
                         <ul class="object">
                             <li>Material: Hand-woven linen</li>
                             <li>Technique: Patchwork</li>
@@ -97,7 +97,7 @@
                         </ul>
                     </div></a></li>
                 <li class="img mySlides sixthImage"><a href="#"><img src="./images/onna-bugeisha/1.jpg"><div class="notes hidden">
-                        <h2>Onna bugeisha / 女武芸者</h2>
+                        <h2>Onna bugeisha / <span class="japanese">女武芸者</span></h2>
                         <ul class="object">
                             <li>Material: Silk organza on the insided, nettle linen on the outside</li>
                             <li>Technique: Screen printing</li>
@@ -105,7 +105,7 @@
                         </ul>
                     </div></a></li>
                 <li class="img mySlides seventhImage"><a href="#"><img src="./images/kimono-doily/2-half.jpg"><div class="notes hidden">
-                        <h2>Doily Kimono. Tea Ceremony / 茶会</h2>
+                        <h2>Doily Kimono. Tea Ceremony / <span class="japanese">茶会</span></h2>
                         <ul class="object">
                             <li>Material: Cotton doilies, silk organza</li>
                             <li>Technique: Knitting, screen printing</li>
