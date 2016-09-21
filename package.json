@@ -17,5 +17,8 @@
     "gulp-ruby-sass": "^2.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "sync": "^0.2.5"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2"
   }
 }

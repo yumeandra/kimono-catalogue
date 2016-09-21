@@ -24,8 +24,9 @@
     <meta name="msapplication-TileImage" content="./images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="./fonts/LogoTypeGothicCondense/stylesheet.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 </head>
-<body>
+<body class="animated slideInRight">
     <header>
         <div class="container">
                <!-- navigation - menu-->

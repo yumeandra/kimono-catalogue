@@ -1,4 +1,6 @@
 $(function(){
+    
+    //slider na stronie głównej:
     function sliding() {
    var slide = $(".slider");
     var images = slide.find(".img");
@@ -37,7 +39,7 @@ $(function(){
     
     
         
-    prev.on("click", function(){
+    next.on("click", function(){
 //       console.log(prev); 
         ++index;
         if(index > images.length ) {
@@ -59,7 +61,7 @@ $(function(){
         
      });
     
-    next.on("click", function(){
+    prev.on("click", function(){
 //        console.log(next);
 //         console.log(index, images.length);
         --index;
@@ -80,6 +82,7 @@ $(function(){
     
     }
     sliding();
+    
     
     function noteAppearing(){
         var slide = $(".slider");

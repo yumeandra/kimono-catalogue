@@ -25,7 +25,7 @@
     <meta name="msapplication-TileImage" content="./images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 </head>
- <body>
+ <body class="animated slideInRight">
    <?php include("inc_header.php"); ?> 
      <!--section with an information-->
      

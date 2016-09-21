@@ -23,8 +23,9 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 </head>
-<body>
+<body class="animated slideInRight">
    <?php include("inc_header.php"); ?>
     <!--section for 9 pieces one by one -->
     <section class="container">
