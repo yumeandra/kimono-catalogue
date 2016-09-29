@@ -64,7 +64,7 @@
 <?php include("inc_footer.php"); ?>
     
     <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
-<!--    <script src="./js/app-exhibitions.js" type="text/javascript"></script>-->
+    <script src="./js/app.js" type="text/javascript"></script>
 </body>
 </html>
     

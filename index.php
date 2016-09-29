@@ -44,10 +44,9 @@
         </div>
    
     </header>
+    
     <section class="container main_slider">
 <!-- slider-->
-       
-            
         
         <div class="gallery">
             <a class="fa fa-chevron-circle-left fa-3x" aria-hidden="true"></a>

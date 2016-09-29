@@ -105,7 +105,8 @@ $(function(){
     
     //sticky menu:
     var nav = $("nav");
-    var off = nav.offset();
+    var menu = nav.find(".menu");
+    var off = menu.offset();
     var top = off.top;
     console.log(nav, off, top);
     
@@ -115,16 +116,16 @@ $(function(){
         console.log(scrollTop);
         
         if(scrollTop > top){
-            nav.addClass("sticky");
+            menu.addClass("sticky");
         } else {
-            nav.removeClass("sticky");
+            menu.removeClass("sticky");
         }
         
     });
     
     $(window).on("resize", function(){
         console.log("okno się zmienia");
-         if (nav.hasClass("sticky")){
+         if (menu.hasClass("sticky")){
              top = off.top; 
             console.log(off, top);
          } else {
@@ -137,22 +138,3 @@ $(function(){
         
 });
 
-//$(document).ready(function() {
-//var stickyNavTop = $('.nav').offset().top;
-// 
-//var stickyNav = function(){
-//var scrollTop = $(window).scrollTop();
-//      
-//if (scrollTop > stickyNavTop) { 
-//    $('.nav').addClass('sticky');
-//} else {
-//    $('.nav').removeClass('sticky'); 
-//}
-//};
-// 
-//stickyNav();
- 
-//$(window).scroll(function() {
-//  stickyNav();
-//});
-//});
