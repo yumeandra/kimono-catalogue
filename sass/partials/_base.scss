@@ -39,7 +39,6 @@
 
 
 body {
-//    font-family: 'Pontano Sans', sans-serif;
     font-family: 'Antic', sans-serif;
     background: rgb(100,100,100);
     background: -webkit-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
@@ -57,7 +56,7 @@ body {
 
 @media (max-width: 400px){
     .menu{
-        position: sticky;
+//        position: sticky;
           .col-1{
           height: 50px;
           float: left;
@@ -114,23 +113,26 @@ body {
         background: -o-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
         background: -moz-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
         background: linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-        z-index: 9;
-       .col-1{
-          height: 50px;
-          float: left;
-          list-style: none;
-          display: flex;
-          justify-content: space-between;
-          a {
-            width: 100%;
-            display: block;
-            text-align: center;
-            text-decoration: none;
-            font-size: 1.1em;
-            color: $menu-color;
-            padding: 5px;
-            }
-        }  
+//        z-index: 9;
+       .menu{
+           height: 30px;
+           .col-1{
+              height: 30px;
+              float: left;
+              list-style: none;
+              display: flex;
+              justify-content: space-between;
+              a {
+                width: 100%;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                font-size: 1.1em;
+                color: $menu-color;
+                padding: 5px;
+                }
+            } 
+        }
     }
     
 }
@@ -141,7 +143,7 @@ body {
     a{
          img {
             display:block;
-            margin-left: 5%;
+            margin-left: 6%;
         }   
     }
     
@@ -149,11 +151,21 @@ body {
 
 @media (max-width: 799px){
         #home_page {
-        width: 100%;
-        height: 32px;
-        display: flex;
-         justify-content: center;
-            
+            width: 100%;
+            height: 32px;
+            display: flex;
+             justify-content: center;
+
+            }
+}
+
+@media (min-width: 799px){
+        #home_page {
+            width: 100%;
+            height: 32px;
+            a{
+              margin-top: 51px;  
+            }
         }
 }
 
@@ -217,11 +229,6 @@ body {
     } 
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-}
 
 a:hover:not(.fa) {
     text-decoration: underline!important;
@@ -229,4 +236,11 @@ a:hover:not(.fa) {
 }
 
 
-   
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}

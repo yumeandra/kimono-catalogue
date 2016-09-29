@@ -44,7 +44,7 @@
         </div>
    
     </header>
-    <section class="container">
+    <section class="container main_slider">
 <!-- slider-->
        
             

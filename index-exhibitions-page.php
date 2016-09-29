@@ -5,7 +5,7 @@
     <title>Exhibitions (Kimono Catalogue)</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-icon-72x72.png">
@@ -149,7 +149,7 @@
    <?php include("inc_footer.php"); ?>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDny-7n_txiLrysMWV3Xs4bz1GybRLoTgo&callback=initMap"async defer></script>
     <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
-<!--    <script src="./js/app-exhibitions.js" type="text/javascript"></script>-->
+    <script src="./js/app.js" type="text/javascript"></script>
 </body>
 </html>
     

@@ -5,7 +5,7 @@
     <title>Exhibitions (Kimono Catalogue)</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-icon-72x72.png">
@@ -25,7 +25,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 </head>
-<body>
+<body class="animated slideInRight">
    <?php include("inc_header.php"); ?>
     
     <!--section with the item datails-->
