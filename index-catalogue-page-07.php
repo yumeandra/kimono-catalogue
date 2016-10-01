@@ -5,6 +5,7 @@
     <title>Exhibitions (Kimono Catalogue)</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
@@ -31,10 +32,10 @@
     <!--section with the item datails-->
     <section class="container">
         <!--if more photos: slider-->
-        <div class="artpiece col-4"><img src="./images/first-sample/1.jpg"></div>
+        <div class="artpiece col-4"><img src="./images/kimono-doily/3.jpg"></div>
         
         <div class="col-2 descript">
-             <h2>Doily Kimono. Tea Ceremony / 茶会</h2>
+             <h2>Doily Kimono. Tea Ceremony / <span class="japanese">茶会</span></h2>
              <ul class="">
                  <li>Material: Cotton doilies, silk organza</li>
                  <li>Technique: Knitting, screen printing</li>

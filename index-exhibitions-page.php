@@ -5,6 +5,7 @@
     <title>Exhibitions (Kimono Catalogue)</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial- scale=1"/>
    <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
@@ -70,9 +71,9 @@
             map.setMapTypeId('greyish_map');
             
           
-            var marker1 = new google.maps.Marker({ position: StokholmLatLng, map: map, draggable: true, title: 'Museum of Far Eastern Antiquities', icon: markerIcon, class: "sweden"});
+            var marker1 = new google.maps.Marker({ position: StokholmLatLng, map: map, draggable: true, title: 'Stokholm: Museum of Far Eastern Antiquities', icon: markerIcon, class: "sweden"});
               
-            var marker2 = new google.maps.Marker({ position: MangghaLatLng, map: map, draggable: true, title: 'Manggha Museum of Japanese Art and Technology', icon: markerIcon, class: "poland"});
+            var marker2 = new google.maps.Marker({ position: MangghaLatLng, map: map, draggable: true, title: 'Krakow: Manggha Museum of Japanese Art and Technology', icon: markerIcon, class: "poland"});
             
             var places = [];
             places.push(marker1, marker2);

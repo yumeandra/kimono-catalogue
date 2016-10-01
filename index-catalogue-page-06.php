@@ -5,6 +5,7 @@
     <title>Exhibitions (Kimono Catalogue)</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
@@ -31,10 +32,10 @@
     <!--section with the item datails-->
     <section class="container">
         <!--if more photos: slider-->
-        <div class="artpiece col-4"><img src="./images/first-sample/1.jpg"></div>
+        <div class="artpiece col-4"><img src="./images/onna-bugeisha/3.jpg"></div>
         
         <div class="col-2 descript">
-            <h2>Onna bugeisha / 女武芸者</h2>
+            <h2>Onna bugeisha / <span class="japanese">女武芸者</span></h2>
             <ul class="">
                  <li>Material: Silk organza on the insided, nettle linen on the outside</li>
                  <li>Technique: Screen printing</li>
@@ -45,12 +46,12 @@
         <div class="col-2 text">
             <h3>The story</h3>
             <br>
-            <p>I worked on this kimono, which combines elements of women's and men attire, without a specific idea, following my intuition instead. I tried to balance the delicate colours and silk lining inside with the rigid outer part of kimono which gives an impression of metal.<br>In the end, I dicoveried how well it conveyed the various aspects of the feminine nature.
+            <p>I worked on this kimono, which combines elements of women's and men attire, without a specific idea, following my intuition instead. I tried to balance the delicate colours and silk lining inside with the rigid outer part of kimono which gives an impression of metal.<br>In the end, I discoveried how well it conveyed the various aspects of the feminine nature.
             </p><br>
             <span class="JoBo-signature">Joanna Bodzek</span>
             <h3>Over-interpretation</h3>
             <p> 女 (onna) - woman<br>
-            武芸者 (bbugeisha) - master of military arts<br> An onna bugeisha is a woman-warrior, also referred to as a woman samurai. Such female warriors came from noble and samurai faielies, and when need arose fought in battle as bravely as men. <br>They would mostly use swords and spears. The iconic embodimentof the onna bugeisha concept was Empress JingU (c. 169-269) who led her deceased husband's armies to complete his conquest of Korea in 200.</p><br>
+            武芸者 (bugeisha) - master of military arts<br> An onna bugeisha is a woman-warrior, also referred to as a woman samurai. Such female warriors came from noble and samurai families, and when need arose fought in battle as bravely as men. <br>They would mostly use swords and spears. The iconic embodimentof the onna bugeisha concept was Empress Jingū (c. 169–269) who led her deceased husband's armies to complete his conquest of Korea in 200.</p><br>
             <span class="AlGoe-signature">Aleksandra Görlich</span>
         </div>
     </section>

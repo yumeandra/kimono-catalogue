@@ -5,6 +5,7 @@
     <title>Exhibitions (Kimono Catalogue)</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
@@ -31,10 +32,10 @@
     <!--section with the item datails-->
     <section class="container">
         <!--if more photos: slider-->
-        <div class="artpiece col-4"><img src="./images/first-sample/1.jpg"></div>
+        <div class="artpiece col-4"><img src="./images/table-cloth/double.jpg"></div>
         
         <div class="col-2 descript">
-            <h2>Chiyono / ちよの</h2>
+            <h2>Chiyono / <span class="japanese">ちよの</span></h2>
                 <ul class="">
                     <li>Material: Hand-woven linen</li>
                     <li>Technique: Patchwork</li>

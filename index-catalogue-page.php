@@ -5,6 +5,7 @@
     <title>Exhibitions (Kimono Catalogue)</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
@@ -33,7 +34,7 @@
             <div class="photo-one col-4"><a href="./index-catalogue-page-01.php"></a>
             </div>
             <div class="col-2 description">
-                <h2>First Sample / 初めのサンプル </h2>
+                <h2>First Sample / <span class="japanese">初めのサンプル</span> </h2>
                     <ul class="">
                         <li>Material: Raw Cotton (kimono), cotton bed sheet (obi), silvered steel (fork)</li>
                         <li>Technique: Print on fabric</li>
@@ -73,14 +74,14 @@
                     </ul>
                 <br>
                 <p>The kimono was sewn of old damask fabrics, previously used as tablecloth on the excursion ship Hjälmaren which sailed along the canal of the same name.<br> The textiles were hand-woven specifically for the luxury ship, probably in the early 19<sup>th</sup> century.</p>
-                <a href="#">Find out more</a>
+                <a href="index-catalogue-page-03.php">Find out more</a>
             </div>
         </article>
         
         <article class="color-four">
             <div class="photo-four col-4"></div>
             <div class="col-2 description">
-                <h2>Chiyono / ちよの</h2>
+                <h2>Chiyono / <span class="japanese">ちよの</span></h2>
                     <ul class="">
                         <li>Material: Hand-woven linen</li>
                         <li>Technique: Patchwork</li>
@@ -88,7 +89,7 @@
                     </ul>
                 <br>
                 <p>The kimono sewn of fifty Polish and Swedish dish-cloths brings to mind a kitchen, a housewife moving around it, serving fragrant hot meals to us, gathered around a table. <br>The cosy homely atmosphere is conveyed by the hand-hemmed edges and traces of use.</p>
-                <a href="#">Find out more</a>
+                <a href="index-catalogue-page-04.php">Find out more</a>
             </div>
         </article>
         
@@ -105,7 +106,7 @@
                 <br>
                 
                 <p>Late in the evening on 10<sup>th</sup> March 2011, I was working on some materials for an exhibition. Several two-metre-long breadths of silk were washed after the prints on them had been fixed. <br>As it turned out, all the fabrics broke in washing, in a way that I had never seen before.</p>
-                <a href="#">Find out more</a>
+                <a href="index-catalogue-page-05.php">Find out more</a>
             </div>
         </article>
         
@@ -113,7 +114,7 @@
         <article class="color-six">
             <div class="photo-six col-4"></div>
             <div class="col-2 description">
-                <h2>Onna bugeisha / 女武芸者</h2>
+                <h2>Onna bugeisha / <span class="japanese">女武芸者</span></h2>
                  <ul class="">
                      <li>Material: Silk organza on the insided, nettle linen on the outside</li>
                      <li>Technique: Screen printing</li>
@@ -121,14 +122,14 @@
                  </ul>
                 <br>
                 <p>I worked on this kimono, which combines elements of women's and men attire, without a specific idea, following my intuition instead. I tried to balance the delicate colours and silk lining inside with the rigid outer part of kimono which gives an impression of metal.</p>
-                <a href="#">Find out more</a>
+                <a href="index-catalogue-page-06.php">Find out more</a>
             </div>
         </article>
     
         <article class="color-seven">
             <div class="photo-seven col-4"></div>
             <div class="col-2 description">
-                <h2>Doily Kimono. Tea Ceremony / 茶会</h2>
+                <h2>Doily Kimono. Tea Ceremony / <span class="japanese">茶会</span></h2>
                 <ul class="">
                     <li>Material: Cotton doilies, silk organza</li>
                     <li>Technique: Knitting, screen printing</li>
@@ -136,7 +137,7 @@
                 </ul>
                 <br>
                 <p>I hope this kimono will make you reflect on the value of women's handicraft. <br> It was made of knitted cotton doilies, 2 zlotys each. <br>The garment is made of some seventy snowflake-shaped doilies and is worth thousand of hours of women's work. It takes twenty hours or more to knit one doily, which means about 1400 hours in total, plus 100 hours to put 'snowflakes' together - to create a kimono.</p>
-                <a href="#">Find out more</a>
+                <a href="index-catalogue-page-07.php">Find out more</a>
             </div>
         </article>
       
@@ -151,7 +152,7 @@
                 </ul>
                 <br>
                 <p>The kimono is a work of fine tailoring craft, which is why I asked Anika Hed to sew this garment. In her work, she is guided by the idea that everyone deserves the best quality of service. Anika Hed sews tailored garments. Every year, Japanese Nobel laureats come to er to dress well in the Western style and women visit her to put on kimono.</p>
-                <a href="#">Find out more</a>
+                <a href="index-catalogue-page-08.php">Find out more</a>
             </div>
         </article>
      
@@ -166,7 +167,7 @@
                 </ul>
                 <br>
                 <p>This is one of my favourites in the Kimono Re-Construction project.<br> This kimono comprises my collected memories. It was knitted in wool and silk accumulated over the years of work in fashion design. Some of the yarn was handmade in Sri Lanka using and old bicycle wheel (in lieu of a proper spinning wheel)...</p>
-                <a href="#">Find out more</a>
+                <a href="index-catalogue-page-09.php">Find out more</a>
             </div>
         </article>
         

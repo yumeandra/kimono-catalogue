@@ -5,6 +5,7 @@
     <title>Exhibitions (Kimono Catalogue)</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
@@ -34,7 +35,7 @@
         <div class="artpiece col-4"><img src="./images/first-sample/1.jpg"></div>
         
         <div class="col-2 descript">
-            <h2>First Sample / 初めのサンプル </h2>
+            <h2>First Sample / <span class="japanese">初めのサンプル</span> </h2>
                <ul class="">
                     <li>Material: Raw Cotton (kimono), cotton bed sheet (obi), silvered steel (fork)</li>
                     <li>Technique: Print on fabric</li>

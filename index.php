@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Kimono Catalogue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
@@ -52,9 +53,9 @@
             <a class="fa fa-chevron-circle-left fa-3x" aria-hidden="true"></a>
             <a class="fa fa-chevron-circle-right fa-3x" aria-hidden="true"></a>
             <ul class="slider">
-                <li class="img mySlides firstImage"><a href="#"><img src="./images/first-sample/1.jpg"> 
+                <li class="img mySlides firstImage"><a href="index-catalogue-page-01.php"><img src="./images/first-sample/1.jpg"> 
                     <div class="notes hidden">
-                        <h2>First Sample /<span class="japanese"> 初めのサンプル</span> </h2>
+                        <h2>First Sample /<br><span class="japanese"> 初めのサンプル</span> </h2>
                         <ul class="object">
                             <li>Material: Raw Cotton (kimono), cotton bed sheet (obi), silvered steel (fork)</li>
                             <li>Technique: Print on fabric</li>
@@ -64,7 +65,7 @@
                     </a>
 
                 </li>
-                <li class="img mySlides secondImage"><a href="#"><img src="./images/kimono-open-air/2-part.jpg"><div class="notes hidden">
+                <li class="img mySlides secondImage"><a href="index-catalogue-page-02.php"><img src="./images/kimono-open-air/2-part.jpg"><div class="notes hidden">
                         <h2>Kimono Exchangeable. Open Air</h2>
                         <ul class="object">
                             <li>Material: Raw cotton</li>
@@ -72,7 +73,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides thirdImage"><a href="#"><img src="./images/kimono-wedding/1_detail.jpg"><div class="notes hidden">
+                <li class="img mySlides thirdImage"><a href="index-catalogue-page-03.php"><img src="./images/kimono-wedding/1_detail.jpg"><div class="notes hidden">
                         <h2>Wedding Kimono</h2>
                         <ul class="object">
                             <li>Material: Linen damask</li>
@@ -80,7 +81,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides fourthImage"><a href="#"><img src="./images/table-cloth/set-narrow.jpg"><div class="notes hidden">
+                <li class="img mySlides fourthImage"><a href="index-catalogue-page-04.php"><img src="./images/table-cloth/set-narrow.jpg"><div class="notes hidden">
                         <h2>Chiyono / <span class="japanese">ちよの</span></h2>
                         <ul class="object">
                             <li>Material: Hand-woven linen</li>
@@ -88,7 +89,7 @@
                             <li>Year: 2012</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides fifthImage"><a href="#"><img src="./images/kimono-tsunami/1-part.jpg"><div class="notes hidden">
+                <li class="img mySlides fifthImage"><a href="index-catalogue-page-05.php"><img src="./images/kimono-tsunami/1-part.jpg"><div class="notes hidden">
                         <h2>Tsunami</h2>
                         <ul class="object">
                             <li>Material: Silk</li>
@@ -96,15 +97,15 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides sixthImage"><a href="#"><img src="./images/onna-bugeisha/1.jpg"><div class="notes hidden">
-                        <h2>Onna bugeisha / <span class="japanese">女武芸者</span></h2>
+                <li class="img mySlides sixthImage"><a href="index-catalogue-page-06.php"><img src="./images/onna-bugeisha/1.jpg"><div class="notes hidden">
+                        <h2>Onna bugeisha / <br><span class="japanese">女武芸者</span></h2>
                         <ul class="object">
                             <li>Material: Silk organza on the insided, nettle linen on the outside</li>
                             <li>Technique: Screen printing</li>
                             <li>Year: 2012</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides seventhImage"><a href="#"><img src="./images/kimono-doily/2-half.jpg"><div class="notes hidden">
+                <li class="img mySlides seventhImage"><a href="index-catalogue-page-07.php"><img src="./images/kimono-doily/2-half.jpg"><div class="notes hidden">
                         <h2>Doily Kimono. Tea Ceremony / <span class="japanese">茶会</span></h2>
                         <ul class="object">
                             <li>Material: Cotton doilies, silk organza</li>
@@ -112,7 +113,7 @@
                             <li>Year: 2011</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides eightImage"><a href="#"><img src="./images/tailored-kimono/2-part.jpg"><div class="notes hidden">
+                <li class="img mySlides eightImage"><a href="index-catalogue-page-08.php"><img src="./images/tailored-kimono/2-part.jpg"><div class="notes hidden">
                         <h2>Tailored Kimono</h2>
                         <ul class="object">
                             <li>Material: English wool</li>
@@ -120,7 +121,7 @@
                             <li>Year: 2012</li>
                         </ul>
                     </div></a></li>
-                <li class="img mySlides ninthImage"><a href="#"><img src="./images/kimono-hime/1.jpg"><div class="notes hidden">
+                <li class="img mySlides ninthImage"><a href="index-catalogue-page-09.php"><img src="./images/kimono-hime/1.jpg"><div class="notes hidden">
                         <h2>Knitted Kimono and Obi</h2>
                         <ul class="object">
                             <li>Material: Wool and silk yarns</li>
