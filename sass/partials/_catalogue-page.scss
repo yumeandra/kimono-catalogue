@@ -1,84 +1,4 @@
-@media (max-width: 400px){
-//    .menu{
-//       .col-1{
-//          height: 50px;
-//          float: left;
-//          list-style: none;
-//          display: flex;
-//          justify-content: center;
-//          a {
-//            width: 100%;
-//            display: block;
-//            text-align: center;
-//            text-decoration: none;
-//            font-size: 1.1em;
-//            color: $menu-color;
-//            padding: 5px;
-//            }
-//        }    
-//    }  
-}
-//
-//@media (min-width: 400px) and (max-width: 800px){
-//    nav{
-//        background: rgb(100,100,100);
-//        background: -webkit-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-//        background: -o-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-//        background: -moz-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-//        background: linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-//        z-index: 9;
-//       .menu{
-//            .col-1{
-//          height: 50px;
-//          float: left;
-//          list-style: none;
-//          display: flex;
-//          justify-content: center;
-//          a {
-//            width: 100%;
-//            display: block;
-//            text-align: center;
-//            text-decoration: none;
-//            font-size: 1.5em;
-//            color: $menu-color;
-//            padding: 5px;
-//            }
-//        }  
-//    }  
-//   }
-//    
-//}
-//
-//@media (min-width: 800px){
-//    nav {
-//        background: rgb(100,100,100);
-//        background: -webkit-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-//        background: -o-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-//        background: -moz-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-//        background: linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-////        z-index: 9;
-//       .menu{
-//           height: 30px;
-//           .col-1{
-//              height: 30px;
-//              float: left;
-//              list-style: none;
-//              display: flex;
-//              justify-content: space-between;
-//              a {
-//                width: 100%;
-//                display: block;
-//                text-align: center;
-//                text-decoration: none;
-//                font-size: 1.1em;
-//                color: $menu-color;
-//                padding: 5px;
-//                }
-//            } 
-//        }
-//    }
-//    
-//}
+
 
 
 div[class|="photo"] {
@@ -119,7 +39,29 @@ article:nth-child(2n+2){
     background: linear-gradient(top, rgb(0,0,0), rgb(100,100,100)); 
 }
 
+@media (max-width: 399px) {
+    [class*="color-"]{
+        width: 100vw;
+        [class*="photo-"]{
+            width: 100vw;
+            height: 0;
+            background-size: cover;
+            padding-bottom: 66.66667%;
+        }
+    } 
+}
 
+@media (min-width: 400px) and (max-width: 799px) {
+    [class*="color-"]{
+        width: 100vw;
+        [class*="photo-"]{
+            width-max: 100vw;
+            height: 0;
+            background-size: cover;
+            padding-bottom: 66.66667% * 2 / 3;
+        }
+    } 
+}
 
 .photo-one {
     background-image: url("../images/first-sample/2-double.jpg");
@@ -158,6 +100,8 @@ article:nth-child(2n+2){
     background-image: url("../images/kimono-hime/3.jpg");
 }
 
+
+
 .description {
     margin-top: 3%;
     height: 500px;
@@ -181,3 +125,19 @@ article:nth-child(2n+2){
 }
 }
 
+@media (max-width: 399px){
+    .description {
+        height: auto;
+        width: 100vw;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        padding: 3% 2%;
+        p::first-line{
+            font-size: 1.3rem;
+        }
+        a {
+            text-align: center;
+            padding: 2%;
+        }
+    }
+}

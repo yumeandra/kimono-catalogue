@@ -8,6 +8,13 @@ h1 {
     border: 1px solid black;
 }
 
+@media (max-width: 799px) {
+    #map {
+        width: 100vw;
+        height: 100vh; 
+    }
+}
+
 .two {
     color: $menu-color;
     font-size: 1em;
@@ -19,7 +26,6 @@ h1 {
                 font-size: 1.5em;
             }
             a{
-//               text-decoration: none;
                 color: white;
                 &:hover{
                     color: rgb(150,150,150);
@@ -32,9 +38,54 @@ h1 {
     }
 }
 
+@media (max-width: 399px) {
+    .two {
+        padding: 3%;
+        height: auto;
+        font-size: 1rem;
+        line-height: 2rem;
+        ul {
+            li{
+                span{
+                    font-size: 1.5rem;
+                }
+                a{
+                    color: $link-color;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 400px) and (max-width: 799px) {
+    .two {
+        padding: 3%;
+        height: auto;
+        font-size: 1em;
+        line-height: 2em;
+        ul {
+            li{
+                span{
+                    font-size: 1.5em;
+                }
+                a{
+                    color: $link-color;
+                }
+            }
+        }
+    }
+}
+
 .venue {
     height: 200px;
     width: 50%;
     border-bottom: 1px solid $menu-color;
     margin-bottom: 40px;
 }
+
+@media (max-width: 799px) {
+    .venue {
+        height: auto;
+    }
+}
+

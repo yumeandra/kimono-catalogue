@@ -1,7 +1,9 @@
 $(function(){
     
+    
+    
     //slider na stronie głównej:
-    function sliding() {
+    function sliding() {        
    var slide = $(".slider");
     var images = slide.find(".img");
     var firstImage = slide.find(".firstImage");
@@ -81,7 +83,17 @@ $(function(){
 //    
     
     }
+    
     sliding();
+    
+//    $(window).resize(function(){
+//        if($(this).width() > 799) {
+//            sliding();
+//        }
+//    });
+//    
+    
+    
     
     //notes on slides - sliding from the bottom
     function noteAppearing(){
