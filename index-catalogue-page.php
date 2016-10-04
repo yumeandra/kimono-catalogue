@@ -27,7 +27,9 @@
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 </head>
 <body class="animated slideInRight">
-   <?php include("inc_header.php"); ?>
+   
+    <?php include("inc_header.php"); ?>
+   
     <!--section for 9 pieces one by one -->
     <section class="container">
         <article class="color-one">
