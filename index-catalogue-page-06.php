@@ -34,7 +34,8 @@
         <!--if more photos: slider-->
         <div class="artpiece col-4"><img src="./images/onna-bugeisha/3.jpg"></div>
         
-        <div class="col-2 descript">
+        <div class="item col-2">
+            <div class="col-6 descript">
             <h2>Onna bugeisha / <span class="japanese">女武芸者</span></h2>
             <ul class="">
                  <li>Material: Silk organza on the insided, nettle linen on the outside</li>
@@ -42,18 +43,21 @@
                  <li>Year: 2012</li>
             </ul>
             <br>
+            </div>
+            <div class="col-6 text">
+                <h3>The story</h3>
+                <br>
+                <p>I worked on this kimono, which combines elements of women's and men attire, without a specific idea, following my intuition instead. I tried to balance the delicate colours and silk lining inside with the rigid outer part of kimono which gives an impression of metal.<br>In the end, I discoveried how well it conveyed the various aspects of the feminine nature.
+                </p><br>
+                <span class="JoBo-signature">Joanna Bodzek</span>
+                <h3>Over-interpretation</h3>
+                <p> 女 (onna) - woman<br>
+                武芸者 (bugeisha) - master of military arts<br> An onna bugeisha is a woman-warrior, also referred to as a woman samurai. Such female warriors came from noble and samurai families, and when need arose fought in battle as bravely as men. <br>They would mostly use swords and spears. The iconic embodimentof the onna bugeisha concept was Empress Jingū (c. 169–269) who led her deceased husband's armies to complete his conquest of Korea in 200.</p><br>
+                <span class="AlGoe-signature">Aleksandra Görlich</span>
+                <br>
+            </div>
         </div>
-        <div class="col-2 text">
-            <h3>The story</h3>
-            <br>
-            <p>I worked on this kimono, which combines elements of women's and men attire, without a specific idea, following my intuition instead. I tried to balance the delicate colours and silk lining inside with the rigid outer part of kimono which gives an impression of metal.<br>In the end, I discoveried how well it conveyed the various aspects of the feminine nature.
-            </p><br>
-            <span class="JoBo-signature">Joanna Bodzek</span>
-            <h3>Over-interpretation</h3>
-            <p> 女 (onna) - woman<br>
-            武芸者 (bugeisha) - master of military arts<br> An onna bugeisha is a woman-warrior, also referred to as a woman samurai. Such female warriors came from noble and samurai families, and when need arose fought in battle as bravely as men. <br>They would mostly use swords and spears. The iconic embodimentof the onna bugeisha concept was Empress Jingū (c. 169–269) who led her deceased husband's armies to complete his conquest of Korea in 200.</p><br>
-            <span class="AlGoe-signature">Aleksandra Görlich</span>
-        </div>
+        
     </section>
     <section class="container media">
         <div class="video col-4">

@@ -34,7 +34,8 @@
         <!--if more photos: slider-->
         <div class="artpiece col-4"><img src="./images/tailored-kimono/2.jpg"></div>
         
-        <div class="col-2 descript">
+        <div class="item col-2">
+            <div class="col-6 descript">
             <h2>Tailored Kimono</h2>
             <ul class="">
                 <li>Material: English wool</li>
@@ -42,17 +43,21 @@
                 <li>Year: 2012</li>
             </ul>
             <br>
+            </div>
+            <div class="col-6 text">
+                <h3>The story</h3>
+                <br>
+                <p>The kimono is a work of fine tailoring craft, which is why I asked Anika Hed to sew this garment. In her work, she is guided by the idea that everyone deserves the best quality of service. Anika Hed sews tailored garments. Every year, Japanese Nobel laureats come to er to dress well in the Western style and women visit her to put on kimono.
+                </p><br>
+                <span class="JoBo-signature">Joanna Bodzek</span>
+                <h3>Over-interpretation</h3>
+                <p>The material and pattern of this kimono bring to mind a tailored pinstriped suit. The disinct white seams along the edges of the fabric and in the lower part of the kimono are a decorative element evoking an association with the edging of lapels, cuffs and pockects. The metal parts sewn onto the eri collar occupy the place traditionally intended for a chain watch.<br>Traditional kimono were unstitched before washing and then white, pronouncedly visible baste was used to sew them back together. in northern Honshu, the white seams would even take on the form of decorative patterns covering large fragments of the fabric. </p><br>
+                <span class="AlGoe-signature">Aleksandra Görlich</span>
+                <br>
+            </div>
         </div>
-        <div class="col-2 text">
-            <h3>The story</h3>
-            <br>
-            <p>The kimono is a work of fine tailoring craft, which is why I asked Anika Hed to sew this garment. In her work, she is guided by the idea that everyone deserves the best quality of service. Anika Hed sews tailored garments. Every year, Japanese Nobel laureats come to er to dress well in the Western style and women visit her to put on kimono.
-            </p><br>
-            <span class="JoBo-signature">Joanna Bodzek</span>
-            <h3>Over-interpretation</h3>
-            <p>The material and pattern of this kimono bring to mind a tailored pinstriped suit. The disinct white seams along the edges of the fabric and in the lower part of the kimono are a decorative element evoking an association with the edging of lapels, cuffs and pockects. The metal parts sewn onto the eri collar occupy the place traditionally intended for a chain watch.<br>Traditional kimono were unstitched before washing and then white, pronouncedly visible baste was used to sew them back together. in northern Honshu, the white seams would even take on the form of decorative patterns covering large fragments of the fabric. </p><br>
-            <span class="AlGoe-signature">Aleksandra Görlich</span>
-        </div>
+        
+        
     </section>
     <section class="container media">
         <div class="video col-4">

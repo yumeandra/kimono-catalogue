@@ -34,7 +34,8 @@
         <!--if more photos: slider-->
         <div class="artpiece col-4"><img src="./images/kimono-tsunami/2.jpg"></div>
         
-        <div class="col-2 descript">
+        <div class="item col-2">
+            <div class="col-6 descript">
             <h2>Tsunami</h2>
             <ul class="">
                 <li>Material: Silk</li>
@@ -42,13 +43,15 @@
                 <li>Year: 2011</li>
             </ul>
             <br>
-        </div>
-        <div class="col-2 text">
-            <h3>The story</h3>
-            <br>
-            <p>Late in the evening on 10<sup>th</sup> March 2011, I was working on some materials for an exhibition. Several two-metre-long breadths of silk were washed after the prints on them had been fixed. <br>As it turned out, all the fabrics broke in washing, in a way that I had never seen before.<br>In the small hours of 11 March 2011, the Japanese coast was hit by an earthquake and the resultant tsunami, tens of metres high, destroyed a number of cities, towns and villages in Fukushima Prefecture. <br>I decided to use these silks for a kimono that would become a memento of the tsunami. The kimono got broken so many times in the process of making it that I resolved to leave it forever unfinished. <br>Here is how a former cultural attachE to Stokholm commented on this story when I told it to him: 'This is in accord with the Japanese spirit: we strive for perfection while accepting the fact that it is unattainable.'<br><br>The tsunami nearly wiped out the town of Matsushima, whose beautiful sites had for centuries inspired poets, Matsuo Bashō among them.<br>Hence the idea to make film <a href="https://vimeo.com/132305572" target="_blank">Matsushima</a>.
-            </p><br>
-            <span class="JoBo-signature">Joanna Bodzek</span>
+            </div>
+            <div class="col-6 text">
+                <h3>The story</h3>
+                <br>
+                <p>Late in the evening on 10<sup>th</sup> March 2011, I was working on some materials for an exhibition. Several two-metre-long breadths of silk were washed after the prints on them had been fixed. <br>As it turned out, all the fabrics broke in washing, in a way that I had never seen before.<br>In the small hours of 11 March 2011, the Japanese coast was hit by an earthquake and the resultant tsunami, tens of metres high, destroyed a number of cities, towns and villages in Fukushima Prefecture. <br>I decided to use these silks for a kimono that would become a memento of the tsunami. The kimono got broken so many times in the process of making it that I resolved to leave it forever unfinished. <br>Here is how a former cultural attachE to Stokholm commented on this story when I told it to him: 'This is in accord with the Japanese spirit: we strive for perfection while accepting the fact that it is unattainable.'<br><br>The tsunami nearly wiped out the town of Matsushima, whose beautiful sites had for centuries inspired poets, Matsuo Bashō among them.<br>Hence the idea to make film <a href="https://vimeo.com/132305572" target="_blank">Matsushima</a>.
+                </p><br>
+                <span class="JoBo-signature">Joanna Bodzek</span>
+                <br>
+            </div>
             
         </div>
     </section>

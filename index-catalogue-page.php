@@ -33,10 +33,11 @@
     <!--section for 9 pieces one by one -->
     <section class="container">
         <article class="color-one">
-            <div class="photo-one col-4"><a href="./index-catalogue-page-01.php"></a>
+            <div class="photo-one col-4">
+                <a href="./index-catalogue-page-01.php"></a>
             </div>
             <div class="col-2 description">
-                <h2>First Sample / <span class="japanese">初めのサンプル</span> 
+                <h2>First Sample / <br><span class="japanese">初めのサンプル</span> 
                 </h2>
                 <ul class="">
                     <li>Material: Raw Cotton (kimono), cotton bed sheet (obi), silvered steel (fork)</li>
@@ -51,7 +52,9 @@
         </article>
    
         <article class="color-two">
-            <div class="photo-two col-4"></div>
+            <div class="photo-two col-4">
+                <a href="index-catalogue-page-02.php"></a>
+            </div>
             <div class="col-2 description">
                 <h2>Kimono Exchangeable. Open Air</h2>
                 <ul class="">
@@ -67,7 +70,9 @@
         
         
         <article class="color-three">
-            <div class="photo-three col-4"></div>
+            <div class="photo-three col-4">
+                <a href="index-catalogue-page-03.php"></a>
+            </div>
             <div class="col-2 description">
                 <h2>Wedding Kimono</h2>
                 <ul class="">
@@ -82,7 +87,9 @@
         </article>
         
         <article class="color-four">
-            <div class="photo-four col-4"></div>
+            <div class="photo-four col-4">
+                <a href="index-catalogue-page-04.php"></a>
+            </div>
             <div class="col-2 description">
                 <h2>Chiyono / <span class="japanese">ちよの</span></h2>
                 <ul class="">
@@ -98,7 +105,9 @@
         
 
         <article class="color-five">
-            <div class="photo-five col-4"></div>
+            <div class="photo-five col-4">
+                <a href="index-catalogue-page-05.php"></a>
+            </div>
             <div class="col-2 description">
                 <h2>Tsunami</h2>
                 <ul class="">
@@ -115,7 +124,9 @@
         
   
         <article class="color-six">
-            <div class="photo-six col-4"></div>
+            <div class="photo-six col-4">
+                <a href="index-catalogue-page-06.php"></a>
+            </div>
             <div class="col-2 description">
                 <h2>Onna bugeisha / <span class="japanese">女武芸者</span></h2>
                 <ul class="">
@@ -130,7 +141,9 @@
         </article>
     
         <article class="color-seven">
-            <div class="photo-seven col-4"></div>
+            <div class="photo-seven col-4">
+                <a href="index-catalogue-page-07.php"></a>
+            </div>
             <div class="col-2 description">
                 <h2>Doily Kimono. Tea Ceremony / <span class="japanese">茶会</span></h2>
                 <ul class="">
@@ -145,7 +158,9 @@
         </article>
       
         <article class="color-eight">
-            <div class="photo-eight col-4"></div>
+            <div class="photo-eight col-4">
+                <a href="index-catalogue-page-08.php"></a>
+            </div>
             <div class="col-2 description">
                 <h2>Tailored Kimono</h2>
                 <ul class="">
@@ -160,7 +175,9 @@
         </article>
      
         <article class="color">
-            <div class="photo-nine col-4"></div>
+            <div class="photo-nine col-4">
+                <a href="index-catalogue-page-09.php"></a>
+            </div>
             <div class="col-2 description">
                 <h2>Knitted Kimono and Obi</h2>
                 <ul class="">

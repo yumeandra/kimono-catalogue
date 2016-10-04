@@ -34,7 +34,8 @@
         <!--if more photos: slider-->
         <div class="artpiece col-4"><img src="./images/table-cloth/double.jpg"></div>
         
-        <div class="col-2 descript">
+        <div class="item col-2">
+            <div class="col-6 descript">
             <h2>Chiyono / <span class="japanese">ちよの</span></h2>
                 <ul class="">
                     <li>Material: Hand-woven linen</li>
@@ -42,17 +43,21 @@
                     <li>Year: 2012</li>
                 </ul>
                 <br>
+            </div>
+            <div class="col-6 text">
+                <h3>The story</h3>
+                <br>
+                <p>The kimono sewn of fifty Polish and Swedish dish-cloths brings to mind a kitchen, a housewife moving around it, serving fragrant hot meals to us, gathered around a table. <br>The cosy homely atmosphere is conveyed by the hand-hemmed edges and traces of use.<br>The fifty old cloths... are handmade products that carry dreams and memories, hours spent on preparingthe trousseau, embroidering initials on dish-cloths and bed linen.<br> We serve food on the table, the natural meeting place at home. The table is both inviting and disintegrating. The disintegration is part of a process that has a beauty of its own. The life between the bed and the table. Here we can undertake reflections on tradition and the family. Who are we? Are we living our visions and dreams? Kimono is the Japanese word for a 'thing to wear', 'clothing', i.e garments worn on a daily basis, also for cleaning and tidying.<br> The Polish and Swedish dish-cloths forming a Japanese woma's garment are an unexpexted combination. However, they complement each other, pointing to the traditional perception of the woman's role in dissimilar cultures.
+                </p><br>
+                <span class="JoBo-signature">Joanna Bodzek</span>
+                <h3>Over-interpretation</h3>
+                <p>In Japan, it is customary to reuse fabrics: to alter old kimono into smaller ones, and sew bags or dolls from small pieces of cloth. You can even find collections of fragments of precious fabric (e.g. theatre costumes) placed in albums or used to decorate screens.<br> The reuse of dish-cloths to create a garment potentially used in household chores invokes this custom. <br>The matter and the idea are one. </p><br>
+                <span class="AlGoe-signature">Aleksandra Görlich</span>
+                <br>
+            </div>
         </div>
-        <div class="col-2 text">
-            <h3>The story</h3>
-            <br>
-            <p>The kimono sewn of fifty Polish and Swedish dish-cloths brings to mind a kitchen, a housewife moving around it, serving fragrant hot meals to us, gathered around a table. <br>The cosy homely atmosphere is conveyed by the hand-hemmed edges and traces of use.<br>The fifty old cloths... are handmade products that carry dreams and memories, hours spent on preparingthe trousseau, embroidering initials on dish-cloths and bed linen.<br> We serve food on the table, the natural meeting place at home. The table is both inviting and disintegrating. The disintegration is part of a process that has a beauty of its own. The life between the bed and the table. Here we can undertake reflections on tradition and the family. Who are we? Are we living our visions and dreams? Kimono is the Japanese word for a 'thing to wear', 'clothing', i.e garments worn on a daily basis, also for cleaning and tidying.<br> The Polish and Swedish dish-cloths forming a Japanese woma's garment are an unexpexted combination. However, they complement each other, pointing to the traditional perception of the woman's role in dissimilar cultures.
-            </p><br>
-            <span class="JoBo-signature">Joanna Bodzek</span>
-            <h3>Over-interpretation</h3>
-            <p>In Japan, it is customary to reuse fabrics: to alter old kimono into smaller ones, and sew bags or dolls from small pieces of cloth. You can even find collections of fragments of precious fabric (e.g. theatre costumes) placed in albums or used to decorate screens.<br> The reuse of dish-cloths to create a garment potentially used in household chores invokes this custom. <br>The matter and the idea are one. </p><br>
-            <span class="AlGoe-signature">Aleksandra Görlich</span>
-        </div>
+        
+        
     </section>
     <section class="container media">
         <div class="video col-4">

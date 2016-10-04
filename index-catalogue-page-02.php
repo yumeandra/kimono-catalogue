@@ -34,24 +34,28 @@
         <!--if more photos: slider-->
         <div class="artpiece col-4"><img src="./images/kimono-open-air/1_h.jpg"></div>
         
-        <div class="col-2 descript">
+        <div class="item col-2">
+            <div class="col-6 descript">
             <h2>Kimono Exchangeable/ Open Air </h2>
                 <ul class="">
                   <li>Material: Raw cotton</li>
                   <li>Technique: Screen printing</li>
                   <li>Year: 2011</li>
                 </ul>
+            </div>
+            <div class="col-6 text">
+                <h3>The story</h3>
+                <br>
+                <p>In the past, kimono used to be unstitched before washing and then hand-sewn back together. As the garment is made from a considerable length of fabric, it is easy to alter it to fit another person.<br>The kimono with a printed image of bowls and fruit was used in the art performance <a href="#">The Luncheon on the Grass</a>, where its initial role was that of the tablecloth/picnic blancket for Irina eating fruit from real plates. She donned it after meal. The impulse to create this kimono was an image of a nude woman on whom food was served as it would on a table.
+                </p><br>
+                <span class="JoBo-signature">Joanna Bodzek</span>
+                <h3>Over-interpretation</h3>
+                <p>This is another answer to the qestion about bringing cutlery to a Japanese table. The kimono becomes a table through the pattern placed on it and through the fact that it is spread in a way that is natural for it (on the grass), never ceasing to be a garment ready for wearing.</p><br>
+                <span class="AlGoe-signature">Aleksandra Görlich</span>
+                <br>
+            </div>
         </div>
-        <div class="col-2 text">
-            <h3>The story</h3>
-            <br>
-            <p>In the past, kimono used to be unstitched before washing and then hand-sewn back together. As the garment is made from a considerable length of fabric, it is easy to alter it to fit another person.<br>The kimono with a printed image of bowls and fruit was used in the art performance <a href="#">The Luncheon on the Grass</a>, where its initial role was that of the tablecloth/picnic blancket for Irina eating fruit from real plates. She donned it after meal. The impulse to create this kimono was an image of a nude woman on whom food was served as it would on a table.
-            </p><br>
-            <span class="JoBo-signature">Joanna Bodzek</span>
-            <h3>Over-interpretation</h3>
-            <p>This is another answer to the qestion about bringing cutlery to a Japanese table. The kimono becomes a table through the pattern placed on it and through the fact that it is spread in a way that is natural for it (on the grass), never ceasing to be a garment ready for wearing.</p><br>
-            <span class="AlGoe-signature">Aleksandra Görlich</span>
-        </div>
+        
     </section>
     <section class="container media">
         <div class="video col-4">
