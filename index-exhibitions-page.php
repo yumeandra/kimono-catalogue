@@ -149,8 +149,7 @@
 
    <?php include("inc_footer.php"); ?>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDny-7n_txiLrysMWV3Xs4bz1GybRLoTgo&callback=initMap"async defer></script>
-    <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
-    <script src="./js/app.js" type="text/javascript"></script>
+    
 </body>
 </html>
     
