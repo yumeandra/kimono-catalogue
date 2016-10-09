@@ -5,7 +5,7 @@ $(function(){
 //               
         if ($(window).width > (799 + "px")) {
            
-            //slider na stronie głównej:
+            //slider on the home-page:
    
             function sliding() {
 
@@ -140,35 +140,48 @@ $(function(){
     noteEntering();
     
     //sticky menu:
-    var nav = $("nav");
-    var menu = nav.find(".menu");
-    var off = menu.offset();
-    var top = off.top;
-    console.log(nav, off, top);
     
-    $(window).on("scroll", function(){
-        console.log("scroll-roll-roll...")
-        var scrollTop = $(document).scrollTop();
-        console.log(scrollTop);
-        
-        if(scrollTop > top){
-            menu.addClass("sticky");
-        } else {
-            menu.removeClass("sticky");
-        }
-        
-    });
+function stickyMenu() {
     
-    $(window).on("resize", function(){
-        console.log("okno się zmienia");
-         if (menu.hasClass("sticky")){
-             top = off.top; 
-            console.log(off, top);
-         } else {
-            top = nav.offset().top;
-             console.log(top);
-         }
-    });
+    if ($(window).width > (799 + "px")) {
+        
+        
+        var nav = $("nav");
+        var menu = nav.find(".menu");
+        var off = menu.offset();
+        var top = off.top;
+        console.log(nav, off, top);
+
+        $(window).on("scroll", function(){
+            console.log("scroll-roll-roll...")
+            var scrollTop = $(document).scrollTop();
+            console.log(scrollTop);
+
+            if(scrollTop > top){
+                nav.addClass("sticky");
+            } else {
+                nav.removeClass("sticky");
+            }
+
+        });
+
+        $(window).on("resize", function(){
+            console.log("okno się zmienia");
+             if (nav.hasClass("sticky")){
+                top = off.top; 
+                console.log(off, top);
+             } else {
+                top = nav.offset().top;
+                 console.log(top);
+            }
+        });
+
+        
+    }
+    
+}
+
+stickyMenu();
     
     
         

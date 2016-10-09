@@ -56,9 +56,10 @@
 
 .media {
     float:left;
+    width: 66.7%;
     h2 {
       color: $menu-color;
-      margin-left: 10%;
+      margin-left: 20%;
       margin-bottom: 2%;
     }
 }
@@ -75,7 +76,7 @@ figure {
 iframe {
     height: 100%;
     width: 100%;
-    left: 30%;
+    left: 20%;
     top: 0;
     position: absolute;
 }

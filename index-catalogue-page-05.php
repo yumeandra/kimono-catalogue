@@ -57,7 +57,7 @@
     </section>
     <section class="container media">
         <h2>Related media</h2>
-        <figure class="video col-2">
+        <figure class="video col-4">
             <iframe src="http://player.vimeo.com/video/132305572"></iframe>
         </figure>
         <div class="audio col-4">
