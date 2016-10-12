@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial- scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+    <meta name="theme-color" content="#000"/>
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-icon-72x72.png">
