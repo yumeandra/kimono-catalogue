@@ -1,0 +1,47 @@
+@media (max-width: $mobile) {
+    .project-story {
+        width: 100vw;
+        color: $menu-color;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        a {
+            color: $link-color;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .story {
+        display: flex;
+        justify-content: center;
+       .project-story {
+            text-align: center;
+            width: 66.7vw;
+            color: $menu-color;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+             a {
+                color: $link-color;
+            }
+        } 
+    }
+    
+}
+
+@media (min-width: ($tablet + 1px)) {
+    .story {
+        display: flex;
+        justify-content: center;
+        .project-story {
+            text-align: center;
+            width: 50vw;
+            color: $menu-color;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+             a {
+                color: $link-color;
+            }
+        }
+    }
+    
+}
