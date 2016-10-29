@@ -29,19 +29,27 @@
 }
 
 @media (min-width: ($tablet + 1px)) {
-    .story {
+    .story {    
         display: flex;
         justify-content: center;
-        .project-story {
-            text-align: center;
-            width: 50vw;
-            color: $menu-color;
-            font-size: 1.1rem;
-            line-height: 1.5rem;
-             a {
-                color: $link-color;
+            
+            .project-story {
+                text-align: center;
+                width: 30vw;
+                color: $menu-color;
+                font-size: 1.1rem;
+                line-height: 1.5rem;
+                 a {
+                    color: $link-color;
+                }
             }
-        }
+            .quote {
+                    font-size: 1.5rem;
+                    line-height: 1.9rem;
+                    width: 50vw;
+                    color: $menu-color;
+            }
     }
-    
+        
 }
+    

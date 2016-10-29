@@ -765,4 +765,53 @@ iframe {
     width: 128px;
     height: 128px; }
 
+@media (max-width: 414px) {
+  /* line 2, C:/xampp/htdocs/GitHub/kimono-un-perfect/kimono-catalogue/sass/partials/_kimono-project-page.scss */
+  .project-story {
+    width: 100vw;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    line-height: 1.5rem; }
+    /* line 7, C:/xampp/htdocs/GitHub/kimono-un-perfect/kimono-catalogue/sass/partials/_kimono-project-page.scss */
+    .project-story a {
+      color: rgba(255, 255, 255, 0.5); } }
+
+@media (max-width: 799px) {
+  /* line 14, C:/xampp/htdocs/GitHub/kimono-un-perfect/kimono-catalogue/sass/partials/_kimono-project-page.scss */
+  .story {
+    display: flex;
+    justify-content: center; }
+    /* line 17, C:/xampp/htdocs/GitHub/kimono-un-perfect/kimono-catalogue/sass/partials/_kimono-project-page.scss */
+    .story .project-story {
+      text-align: center;
+      width: 66.7vw;
+      color: whitesmoke;
+      font-size: 1.1rem;
+      line-height: 1.5rem; }
+      /* line 23, C:/xampp/htdocs/GitHub/kimono-un-perfect/kimono-catalogue/sass/partials/_kimono-project-page.scss */
+      .story .project-story a {
+        color: rgba(255, 255, 255, 0.5); } }
+
+@media (min-width: 800px) {
+  /* line 32, C:/xampp/htdocs/GitHub/kimono-un-perfect/kimono-catalogue/sass/partials/_kimono-project-page.scss */
+  .story {
+    display: flex;
+    justify-content: center; }
+    /* line 36, C:/xampp/htdocs/GitHub/kimono-un-perfect/kimono-catalogue/sass/partials/_kimono-project-page.scss */
+    .story .project-story {
+      text-align: center;
+      width: 30vw;
+      color: whitesmoke;
+      font-size: 1.1rem;
+      line-height: 1.5rem; }
+      /* line 42, C:/xampp/htdocs/GitHub/kimono-un-perfect/kimono-catalogue/sass/partials/_kimono-project-page.scss */
+      .story .project-story a {
+        color: rgba(255, 255, 255, 0.5); }
+    /* line 46, C:/xampp/htdocs/GitHub/kimono-un-perfect/kimono-catalogue/sass/partials/_kimono-project-page.scss */
+    .story .quote {
+      font-size: 1.5rem;
+      line-height: 1.9rem;
+      width: 50vw;
+      color: whitesmoke; } }
+
 /*# sourceMappingURL=main.css.map */

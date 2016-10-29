@@ -33,36 +33,49 @@
     <?php include("inc_header.php"); ?>
     
     <section class="container story">
-        <div class="project-story">
-            <p>
-            "Kimono …after studying Rei Kawakubo design approach (during studies of Innovative Patter Cutting at Central Saint Martins) I went on to imply my perception of how and Kawakubo is thinking  in her design.. I created the KIMONO RECONSTRUCTION Project its main purpose was to redesigns Kimono in the same way Kawakubo redesigned western garments. Knowing nothing about kimono or Japan i went on to learn and develop while following that road, what  was initially to be one year project lasted for 5 years, granting me the nonparallel opportunity to dive deep in to the Japanese culture and maybe even a soul and to visit this incredible country. Falling in love an ending up ..still not knowing how to redesign a kimono…"
-            </p>
-            <p>
-            Ki-mono means a thing to wear, to carry on yourself... What do you carry on? What do you carry with you? Between rooms, empty space, a new room beyond East and West, kitchen reflections, ideals and femininity ... a space for both the cultures to meet.
+        <div class="whole-story">
+            <div class="project-story">
+            "Kimono …after studying Rei Kawakubo design approach (during studies of Innovative Patter Cutting at Central Saint Martins) I went on to imply my perception of how and Kawakubo is thinking  in her design.. <br> I created the KIMONO RECONSTRUCTION Project. Its main purpose was to redesign Kimono in the same way Kawakubo redesigned western garments.<br><br> Knowing nothing about kimono or Japan I went on to learn and develop while following that road, what  was initially to be one year project lasted for 5 years, granting me the nonparallel opportunity to dive deep in to the Japanese culture and maybe even a soul and to visit this incredible country. Falling in love an ending up ..still not knowing how to redesign a kimono…"
+            </div>
             <br>
+            <div class="project-story">
+            Ki-mono means a thing to wear, to carry on yourself... What do you carry on? What do you carry with you? Between rooms, empty space, a new room beyond East and West, kitchen reflections, ideals and femininity ... a space for both the cultures to meet.
+                <br><br>
             KI-MONO becomes here a canvas on which to paint freely and unrestricted, to combine western and eastern cultural aspects, visual traditions, roots, preferences and ideals of beauty.
             It started as an attempt, as an artistic challenge to approach, in order to re-design something so Japanese and untouched as a kimono-garment, Westernism to Japonism. But this work soon shown to be a journey…
-            <br>
+                <br><br>
             Shortly it became an exploration of the influence of tradition on women's role and position in society. The Ki-mono Project becomes a voice in a cross-cultural discussion on ideals of beauty and femininity ... a space for both the cultures to meet. Through the layers of fabrics one can see the past that becomes part of the future. Like the many layers of kimono, one needs to open one after another to see the image, to see the kimono, to see the woman. The original image, roots, the origins, story, and the Time. 
-            </p>
-            <p>
-            KIMONO UN-PERFECT is an interactive installation of works by Joanna Bodzek, a Polish born artist and designer living and working in Sweden. KIMONO UN-PERFECT became a culmination of all Bodzek’s work created for <a href="http://kimonoreconstruction.joannabodzek.com/?cat=5" target="_blank">Kimono Reconstruction (2009-15)</a>, shown in its entirety.  Bodzek places this work at the intersection of both figurative and conceptual art, using the language of her own European culture to facilitate her examination of the kimono via <a href="index-catalogue-page-04.php" target="_blank">social perspective</a>, <a href="index-catalogue-page-09.php" target="_blank">fairy tales</a> and <a href="index-catalogue-page-02.php" target="_blank">works of art</a>. Kimono-like garments, video work and photography are used to look at the symbolism of this traditional Japanese dress, which is nowadays deemed difficult to interpret, even for those living within the culture from which it came. 
+            </div>
             <br>
-            Bodzek’s kimonos from her Kimono Reconstruction Project, are often made from recycled materials like tea towels, <a href="index-catalogue-page-04.php" target="_blank">tablecloths</a> and other <a href="index-catalogue-page-07.php" target="_blank">handmade textiles</a> which carry their own narratives corresponding to the stereotyped female role. Her fascination with Japanese culture began with studying the work of Rei Kawakubo during her time at Central Saint Martins, and deepened later while collaborating with the Butoh artists and performers.
-            <br>
+            <div class="project-story">
+            KIMONO UN-PERFECT is an interactive installation of works by Joanna Bodzek, a Polish born artist and designer living and working in Sweden. KIMONO UN-PERFECT became a culmination of all Bodzek’s work created for 
+                <a href="http://kimonoreconstruction.joannabodzek.com/?cat=5" target="_blank">Kimono Reconstruction (2009-15)</a>
+            , shown in its entirety.  Bodzek places this work at the intersection of both figurative and conceptual art, using the language of her own European culture to facilitate her examination of the kimono via 
+                <a href="index-catalogue-page-04.php" target="_blank">social perspective</a>
+            , 
+                <a href="index-catalogue-page-09.php" target="_blank">fairy tales</a> 
+            and 
+                <a href="index-catalogue-page-02.php" target="_blank">works of art</a>
+            . Kimono-like garments, video work and photography are used to look at the symbolism of this traditional Japanese dress, which is nowadays deemed difficult to interpret, even for those living within the culture from which it came. 
+                <br><br>
+            Bodzek’s kimonos from her Kimono Reconstruction Project are often made from recycled materials like tea towels, 
+                <a href="index-catalogue-page-04.php" target="_blank">tablecloths</a> 
+            and other 
+                <a href="index-catalogue-page-07.php" target="_blank">handmade textiles</a> 
+            which carry their own narratives corresponding to the stereotyped female role. Her fascination with Japanese culture began with studying the work of Rei Kawakubo during her time at Central Saint Martins, and deepened later while collaborating with the Butoh artists and performers.
+            </div>
+            <br><br>
+            <div class="project-story">
             Artist's statement:
+            </div>
             <br>
-            “Within the Kimono Reconstruction, I explore the border between both the familiar and unfamiliar in relation to tradition and ideals of beauty; things we do not recognise through the themes of identity and diversity. I am linking the cultures of West and East through this work, exploring my obsession and fascination with the mystery of the Geisha, specifically her white makeup and her ultimately mesmerising beauty. 
-            <br>
-            While considering the name of the exhibition I came across Shakespeare Sonnet 23, conveying perfectly the many layers of this work.
-            <br>
-            As an unperfect actor on the stage,<br>
-            Who with his fear is put besides his part,<br>
-
-            Or some fierce thing replete with too much rage,<br>
-            Whose strength’s abundance weakens his own heart."<br>
-            <span class="JoBo-signature">Joanna Bodzek</span> and <span class="AlGoe-signature">Aleksandra Görlich</span><br>
-            </p>
+            <div class="quote">
+                “Within the Kimono Reconstruction, I explore the border between both the familiar and unfamiliar in relation to tradition and ideals of beauty; things we do not recognise through the themes of identity and diversity. I am linking the cultures of West and East through this work, exploring my obsession and fascination with the mystery of the Geisha, specifically her white makeup and her ultimately mesmerising beauty. 
+            </div>
+                <br><br>
+            
+                <span class="JoBo-signature">Joanna Bodzek</span> and <span class="AlGoe-signature">Aleksandra Görlich</span><br>
+          
         </div>
     </section>
     
