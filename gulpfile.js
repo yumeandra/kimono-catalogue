@@ -12,7 +12,7 @@ var Files = {
     html: "./index.php",
     css: ["./css/style.css"],
     css_dest: "./css", //tworzę folder docelowy dla plików css
-//    js: ["./js/1.js", "./js/2.js", "./js/3.js"],
+    js: ["./js/app.js", "./js/app-exhibition.js"],
     js_dest: "./js",
     scss: "./sass/main.scss"
     
@@ -62,5 +62,5 @@ gulp.task("default", ["sass"], function(){ //tu zmieniamy css na sass
     gulp.watch("./sass/**/*.scss", ["sass"])
     gulp.watch("./js/**/*.js", ["js"]);
     gulp.watch(Files.html, browserSync.reload);
-    //obserwuj pliki i w zalezności od plikó odpal odpowiedni task
+    //obserwuj pliki i w zalezności od plików odpal odpowiedni task
 });

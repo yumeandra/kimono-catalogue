@@ -142,6 +142,7 @@ $(function(){
     //sticky menu:
     
 function stickyMenu() {
+
     
     if ($(window).width > (799 + "px")) {
         
@@ -172,12 +173,14 @@ function stickyMenu() {
                 console.log(off, top);
              } else {
                 top = nav.offset().top;
-                 console.log(top);
+                 console.log(top); 
             }
         });
 
-        
+         
     }
+    
+    
     
 }
 

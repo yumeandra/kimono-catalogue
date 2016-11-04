@@ -1,0 +1,40 @@
+#photo1 {
+    background-image: url("./images/artist-page/window.jpg");
+    background-size: cover;
+}
+
+#photo2 {
+    background-image: url("./images/artist-page/chest-of-drawers.jpg");
+     background-size: cover;
+}
+
+@media (max-width: $mobile) {
+    .photo {
+        height: 100vh;
+          #artist-photo {
+            width: 100vw;
+            margin-bottom: 2vw;
+              border: 1px solid red;
+        }  
+    }
+      
+}
+
+@media (max-width: $tablet) {
+    .photo {
+        height: 1200px;
+          #artist-photo {
+            width: 50vw;
+            border: 1px solid red;
+        }    
+    }
+    
+}
+
+@media (min-width: ($tablet + 1px)) {
+    #artist-photo {
+        width: 35vw;
+        margin-left: 10vw;
+        border: 1px solid red;
+    }  
+}
