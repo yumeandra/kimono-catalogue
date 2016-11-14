@@ -4,6 +4,7 @@
         color: $menu-color;
         font-size: 1.1rem;
         line-height: 1.5rem;
+        padding-left: 5%;
         a {
             color: $link-color;
         }
@@ -20,6 +21,7 @@
             color: $menu-color;
             font-size: 1.1rem;
             line-height: 1.5rem;
+            padding-left: 5%;
              a {
                 color: $link-color;
             }
@@ -39,17 +41,106 @@
                 color: $menu-color;
                 font-size: 1.1rem;
                 line-height: 1.5rem;
+                padding-left: 5%;
                  a {
                     color: $link-color;
                 }
             }
-            .quote {
-                    font-size: 1.5rem;
-                    line-height: 1.9rem;
-                    width: 50vw;
-                    color: $menu-color;
-            }
+//            .quote {
+//                    font-size: 1.5rem;
+//                    line-height: 1.9rem;
+//                    width: 50vw;
+//                    color: $menu-color;
+//            }
     }
         
 }
-    
+  
+@media (max-width: $mobile) {
+    .quote {
+        width: 100vw;
+        p {
+            font-size: 2em;
+            line-height: 2.5rem;
+            color: $menu-color;
+//            font-family: 'Shadows Into Light Two', cursive;
+//            font-family: 'Oregano', cursive;
+            font-family: 'Delius', cursive;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .quote {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        p {
+            display: block;
+            width: 80vw;
+            font-size: 2em;
+            line-height: 2.5rem;
+            color: $menu-color;
+//            font-family: 'Shadows Into Light Two', cursive;
+//            font-family: 'Oregano', cursive;
+            font-family: 'Delius', cursive;
+        }
+    }
+}
+
+@media (min-width: ($tablet + 1px)) {
+    .quote {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        p {
+            display: block;
+            width: 80vw;
+            font-size: 2em;
+            
+            line-height: 2.5rem;
+            color: $menu-color;
+//            font-family: 'Shadows Into Light Two', cursive;
+//            font-family: 'Oregano', cursive;
+            font-family: 'Delius', cursive;
+        }
+    }
+}
+#illustrations {
+    display: flex;
+    flex-direction: column;
+    div[class|="ill"] {
+        height: 500px;
+        overflow: hidden;
+        background-color: dimgrey;
+    }
+}
+
+ .ill-1 {
+    background-image: url("../images/project-page/1-hinagata.jpg");
+}
+
+.ill-2 {
+    background-image: url("../images/project-page/2-hinagata.jpg");
+}
+
+.ill-3 {
+    background-image: url("../images/project-page/3-table-cloths.jpg");
+}
+
+.ill-4 {
+    background-image: url("../images/project-page/4-cloths.jpg");
+}
+
+@media (max-width: $mobile) {
+    #illustrations{
+        display: none;
+    }
+}
+
+.story {
+   span {
+        display: block;
+        float: right;
+    }
+}
