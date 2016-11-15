@@ -15,47 +15,38 @@
     .story {
         display: flex;
         justify-content: center;
-       .project-story {
+        .project-story {
             text-align: center;
             width: 66.7vw;
             color: $menu-color;
             font-size: 1.1rem;
             line-height: 1.5rem;
             padding-left: 5%;
-             a {
+            a {
                 color: $link-color;
             }
-        } 
+        }
     }
-    
 }
 
 @media (min-width: ($tablet + 1px)) {
-    .story {    
+    .story {
         display: flex;
         justify-content: center;
-            
-            .project-story {
-                text-align: center;
-                width: 30vw;
-                color: $menu-color;
-                font-size: 1.1rem;
-                line-height: 1.5rem;
-                padding-left: 5%;
-                 a {
-                    color: $link-color;
-                }
+        .project-story {
+            text-align: center;
+            width: 30vw;
+            color: $menu-color;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            padding-left: 5%;
+            a {
+                color: $link-color;
             }
-//            .quote {
-//                    font-size: 1.5rem;
-//                    line-height: 1.9rem;
-//                    width: 50vw;
-//                    color: $menu-color;
-//            }
+        }
     }
-        
 }
-  
+
 @media (max-width: $mobile) {
     .quote {
         width: 100vw;
@@ -63,8 +54,6 @@
             font-size: 2em;
             line-height: 2.5rem;
             color: $menu-color;
-//            font-family: 'Shadows Into Light Two', cursive;
-//            font-family: 'Oregano', cursive;
             font-family: 'Delius', cursive;
         }
     }
@@ -77,12 +66,10 @@
         justify-content: center;
         p {
             display: block;
-            width: 80vw;
+            width: 80%;
             font-size: 2em;
             line-height: 2.5rem;
             color: $menu-color;
-//            font-family: 'Shadows Into Light Two', cursive;
-//            font-family: 'Oregano', cursive;
             font-family: 'Delius', cursive;
         }
     }
@@ -95,17 +82,15 @@
         justify-content: center;
         p {
             display: block;
-            width: 80vw;
+            width: 80%;
             font-size: 2em;
-            
             line-height: 2.5rem;
             color: $menu-color;
-//            font-family: 'Shadows Into Light Two', cursive;
-//            font-family: 'Oregano', cursive;
             font-family: 'Delius', cursive;
         }
     }
 }
+
 #illustrations {
     display: flex;
     flex-direction: column;
@@ -116,7 +101,7 @@
     }
 }
 
- .ill-1 {
+.ill-1 {
     background-image: url("../images/project-page/1-hinagata.jpg");
 }
 
@@ -133,13 +118,13 @@
 }
 
 @media (max-width: $mobile) {
-    #illustrations{
+    #illustrations {
         display: none;
     }
 }
 
 .story {
-   span {
+    span {
         display: block;
         float: right;
     }

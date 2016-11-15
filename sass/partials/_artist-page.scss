@@ -1,40 +1,110 @@
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    h1, h3 {
+        display: block;
+        width: 100vw;
+        color: $menu-color;
+        line-height: 2em;
+        text-align: center;
+    }
+}
+
+
 #photo1 {
-    background-image: url("./images/artist-page/window.jpg");
+    background-image: url("../images/artist-page/window515x500.jpg");
     background-size: cover;
 }
 
 #photo2 {
-    background-image: url("./images/artist-page/chest-of-drawers.jpg");
-     background-size: cover;
+    background-image: url("../images/artist-page/chest-of-drawers475x500.jpg");
+    background-size: cover;
 }
 
 @media (max-width: $mobile) {
     .photo {
         height: 100vh;
-          #artist-photo {
+        #artist-photo {
             width: 100vw;
             margin-bottom: 2vw;
-              border: 1px solid red;
-        }  
+        }
     }
-      
 }
 
 @media (max-width: $tablet) {
     .photo {
         height: 1200px;
-          #artist-photo {
+        #artist-photo {
             width: 50vw;
-            border: 1px solid red;
-        }    
+            #photo1, #photo2 {
+                height: 500px;
+            }
+        }
     }
-    
 }
 
 @media (min-width: ($tablet + 1px)) {
     #artist-photo {
         width: 35vw;
         margin-left: 10vw;
-        border: 1px solid red;
-    }  
+        #photo1, #photo2 {
+                height: 500px;
+            }
+    }
+}
+
+//@media (min-width: ($tablet + 1px))  {
+//    .photo {
+//        display: flex;
+//        
+//    }
+//}
+
+@media (max-width: $mobile) {
+    .artist-story {
+        display: flex;
+        justify-content: center;
+        p {
+             color: $menu-color;
+             font-size: 1.1rem;
+             line-height: 1.5rem;
+             padding-left: 5%;
+            display: block;
+         }
+
+    }
+}
+
+@media (max-width: $tablet) {
+    .artist-story {
+        display: flex;
+        justify-content: center;
+        p {
+            display: block;
+            width: 66.7vw;
+            color: $menu-color;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            padding-left: 5%;
+        }
+    }
+}
+
+@media (min-width: ($tablet + 1px)) {
+    .artist-story {
+        display: flex;
+        justify-content: center;
+        p {
+            display: block;
+            width: 30vw;
+            color: $menu-color;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            padding-left: 5%;
+            
+        }
+    }
 }

@@ -2,45 +2,39 @@
 //    border: 1px solid red;
 //    
 //}
-
-@media (max-width: $mobile){
+@media (max-width: $mobile) {
     .container {
         width: 100%;
-        
     }
     .menu {
-        li{
+        li {
             width: 100%;
         }
     }
 }
- 
+
 @media (min-width: ($mobile + 1px)) and (max-width: ($tablet + 1px)) and (orientation: landscape) {
     .container {
         width: 100%;
-//        margin: 0 auto;
     }
-    
     .menu {
-        li{
+        li {
             width: 100%;
         }
     }
 }
- 
+
 @media (min-width: ($tablet + 1px)) {
-    .container{
+    .container {
         max-width: 1316px;
         margin: 0 auto;
-    } 
+    }
 }
 
-
-
-@media (max-width: $mobile){
-    [class*="col-"]{
+@media (max-width: $mobile) {
+    [class*="col-"] {
         width: 100vw;
-    } 
+    }
     .row::after {
         content: "";
         clear: both;
@@ -48,103 +42,39 @@
     }
 }
 
-@media (min-width: ($mobile + 1px)) and (max-width: $tablet){
-   [class*="col-"]{
+@media (min-width: ($mobile + 1px)) and (max-width: $tablet) {
+    [class*="col-"] {
         width: 100vw;
-    } 
-     .row::after {
+    }
+    .row::after {
         content: "";
         clear: both;
         display: block;
     }
 }
 
-
-
 body {
     font-family: 'Antic', sans-serif;
-    background: rgb(100,100,100);
-    background: -webkit-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
-    background: -o-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
-    background: -moz-linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
-    background: linear-gradient(bottom left, rgb(0,0,0), rgb(100,100,100));
-
+    background: rgb(100, 100, 100);
+    background: -webkit-linear-gradient(bottom left, rgb(0, 0, 0), rgb(100, 100, 100));
+    background: -o-linear-gradient(bottom left, rgb(0, 0, 0), rgb(100, 100, 100));
+    background: -moz-linear-gradient(bottom left, rgb(0, 0, 0), rgb(100, 100, 100));
+    background: linear-gradient(bottom left, rgb(0, 0, 0), rgb(100, 100, 100));
 }
-
 
 .japanese {
     font-family: '07logotypegothic-condenseRg', serif;
 }
-            
 
-@media (max-width: $mobile){
-    .menu{
-       .col-1{
-          height: 50px;
-          float: left;
-          list-style: none;
-          display: flex;
-          justify-content: center;
-          a {
-            width: 100%;
-            display: block;
-            text-align: center;
-            text-decoration: none;
-            font-size: 1.1em;
-            color: $menu-color;
-            padding: 5px;
-            }
-        }    
-    }  
-}
-
-@media (min-width: ($mobile + 1px)) and (max-width: $tablet){
-    nav{
-        background: rgb(100,100,100);
-        background: -webkit-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-        background: -o-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-        background: -moz-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-        background: linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-        z-index: 9;
-       .menu{
-            .col-1{
-          height: 50px;
-          float: left;
-          list-style: none;
-          display: flex;
-          justify-content: center;
-          a {
-            width: 100%;
-            display: block;
-            text-align: center;
-            text-decoration: none;
-            font-size: 1.5em;
-            color: $menu-color;
-            padding: 5px;
-            }
-        }  
-    }  
-   }
-    
-}
-
-@media (min-width: ($tablet + 1px)){
-    nav {
-        background: rgb(100,100,100);
-        background: -webkit-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-        background: -o-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-        background: -moz-linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-        background: linear-gradient(bottom, rgb(0,0,0), rgb(100,100,100));
-//        z-index: 9;
-       .menu{
-           height: 30px;
-           .col-1{
-              height: 30px;
-              float: left;
-              list-style: none;
-              display: flex;
-              justify-content: space-between;
-              a {
+@media (max-width: $mobile) {
+    .menu {
+        .col-1 {
+            height: 50px;
+            float: left;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            a {
                 width: 100%;
                 display: block;
                 text-align: center;
@@ -152,55 +82,107 @@ body {
                 font-size: 1.1em;
                 color: $menu-color;
                 padding: 5px;
-                }
-            } 
+            }
         }
     }
-    
+}
+
+@media (min-width: ($mobile + 1px)) and (max-width: $tablet) {
+    nav {
+        background: rgb(100, 100, 100);
+        background: -webkit-linear-gradient(bottom, rgb(0, 0, 0), rgb(100, 100, 100));
+        background: -o-linear-gradient(bottom, rgb(0, 0, 0), rgb(100, 100, 100));
+        background: -moz-linear-gradient(bottom, rgb(0, 0, 0), rgb(100, 100, 100));
+        background: linear-gradient(bottom, rgb(0, 0, 0), rgb(100, 100, 100));
+        z-index: 9;
+        .menu {
+            .col-1 {
+                height: 50px;
+                float: left;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                a {
+                    width: 100%;
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 1.5em;
+                    color: $menu-color;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: ($tablet + 1px)) {
+    nav {
+        background: rgb(100, 100, 100);
+        background: -webkit-linear-gradient(bottom, rgb(0, 0, 0), rgb(100, 100, 100));
+        background: -o-linear-gradient(bottom, rgb(0, 0, 0), rgb(100, 100, 100));
+        background: -moz-linear-gradient(bottom, rgb(0, 0, 0), rgb(100, 100, 100));
+        background: linear-gradient(bottom, rgb(0, 0, 0), rgb(100, 100, 100));
+        //        z-index: 9;
+        .menu {
+            height: 30px;
+            .col-1 {
+                height: 30px;
+                float: left;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                a {
+                    width: 100%;
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 1.1em;
+                    color: $menu-color;
+                    padding: 5px;
+                }
+            }
+        }
+    }
 }
 
 #home_page {
     width: 100%;
     height: 32px;
-    a{
-         img {
-            display:block;
+    a {
+        img {
+            display: block;
             margin-left: 6%;
-        }   
-    }
-    
-}
-
-@media (max-width: $tablet){
-        #home_page {
-            width: 100%;
-            height: 32px;
-            display: flex;
-             justify-content: center;
-
-            }
-}
-
-@media (min-width: ($tablet + 1px)){
-        #home_page {
-            width: 100%;
-            height: 32px;
-            a{
-              margin-top: 51px;  
-            }
         }
+    }
 }
 
-
-
-.up_foot{
+@media (max-width: $tablet) {
+    #home_page {
+        width: 100%;
+        height: 32px;
         display: flex;
-        justify-content: flex-end;
-        .artist_contact {
+        justify-content: center;
+    }
+}
+
+@media (min-width: ($tablet + 1px)) {
+    #home_page {
+        width: 100%;
+        height: 32px;
+        a {
+            margin-top: 51px;
+        }
+    }
+}
+
+.up_foot {
+    display: flex;
+    justify-content: flex-end;
+    .artist_contact {
         float: left;
         height: 50px;
-       
-        li{
+        li {
             float: right;
             width: 50px;
             line-height: 50px;
@@ -209,14 +191,13 @@ body {
             color: $menu-color;
             a {
                 color: $menu-color;
-
             }
         }
     }
 }
 
 @media (max-width: $tablet) {
-    .up_foot{
+    .up_foot {
         display: flex;
         justify-content: center;
     }
@@ -234,18 +215,18 @@ body {
 
 .bottom_foot {
     clear: both;
-    div{
-        font-size: $font-size;  
+    div {
+        font-size: $font-size;
         color: grey;
         line-height: 30px;
         vertical-align: middle;
-       }
+    }
 }
+
 .bottom_foot {
     height: 30px;
-   .author_contact {
+    .author_contact {
         float: left;
-   
         li {
             list-style: none;
             float: right;
@@ -257,7 +238,7 @@ body {
                 color: grey;
             }
         }
-    } 
+    }
 }
 
 @media (max-width: $mobile) {
@@ -269,9 +250,7 @@ body {
 
 a:hover:not(.fa) {
     text-decoration: underline!important;
-   
 }
-
 
 .sticky {
     position: fixed;
@@ -282,6 +261,7 @@ a:hover:not(.fa) {
     border-top: 0;
 }
 
-.JoBo-signature, .AlGoe-signature {
+.JoBo-signature,
+.AlGoe-signature {
     color: $menu-color;
 }

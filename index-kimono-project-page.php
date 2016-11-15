@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
-<!--    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">-->
-<!--    <link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
     <meta name="theme-color" content="#000" />
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
