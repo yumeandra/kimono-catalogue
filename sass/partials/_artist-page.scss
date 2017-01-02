@@ -4,12 +4,22 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    h1, h3 {
+    h1 {
         display: block;
         width: 100vw;
+        margin-top: 4.5%;
         color: $menu-color;
-        line-height: 2em;
+        line-height: 1em;
         text-align: center;
+        padding-bottom: 20px;
+    }
+    h2 {
+       display: block;
+        width: 100vw;
+        color: $menu-color;
+        line-height: 1em;
+        text-align: center;
+        padding-bottom: 20px; 
     }
 }
 
@@ -17,6 +27,124 @@
 #photo1 {
     background-image: url("../images/artist-page/window515x500.jpg");
     background-size: cover;
+}#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    h1 {
+        display: block;
+        width: 100vw;
+        margin-top: 4.5%;
+        color: $menu-color;
+        line-height: 1em;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    h2 {
+        display: block;
+        width: 100vw;
+        color: $menu-color;
+        line-height: 1em;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+#photo1 {
+    background-image: url("../images/artist-page/window515x500.jpg");
+    background-size: cover;
+}
+
+#photo2 {
+    background-image: url("../images/artist-page/chest-of-drawers475x500.jpg");
+    background-size: cover;
+}
+
+@media (max-width: $mobile) {
+    .photo {
+        height: 100vh;
+        #artist-photo {
+            width: 100vw;
+            margin-bottom: 2vw;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .photo {
+        height: 1200px;
+        #artist-photo {
+            width: 50vw;
+            #photo1,
+            #photo2 {
+                height: 500px;
+            }
+        }
+    }
+}
+
+@media (min-width: ($tablet + 1px)) {
+    #artist-photo {
+        width: 35vw;
+        float: left;
+        margin-left: 10vw;
+        #photo1,
+        #photo2 {
+            height: 500px;
+        }
+    }
+}
+
+//@media (min-width: ($tablet + 1px))  {
+//    .photo {
+//        display: flex;
+//        
+//    }
+//}
+@media (max-width: $mobile) {
+    .artist-story {
+        display: flex;
+        justify-content: center;
+        p {
+            color: $menu-color;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            padding-left: 5%;
+            display: block;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .artist-story {
+        display: flex;
+        justify-content: center;
+        p {
+            display: block;
+            width: 66.7vw;
+            color: $menu-color;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            padding-left: 5%;
+        }
+    }
+}
+
+@media (min-width: ($tablet + 1px)) {
+    .artist-story {
+        display: flex;
+        justify-content: center;
+        p {
+            display: block;
+            width: 30vw;
+            color: $menu-color;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            padding-left: 5%;
+            margin-left: 5vw;
+        }
+    }
 }
 
 #photo2 {
@@ -49,6 +177,7 @@
 @media (min-width: ($tablet + 1px)) {
     #artist-photo {
         width: 35vw;
+        float: left;
         margin-left: 10vw;
         #photo1, #photo2 {
                 height: 500px;
@@ -104,6 +233,7 @@
             font-size: 1.1rem;
             line-height: 1.5rem;
             padding-left: 5%;
+            margin-left: 5vw;
             
         }
     }

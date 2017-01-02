@@ -36,9 +36,9 @@
     <section class="photo">
         <div id="title">
             <h1>Joanna Bodzek</h1>
-            <h3>Visionary, Creative and obsessed by Colour</h3>
+            <h2>Visionary, Creative and obsessed by Colour</h2>
         </div>
-        <div id="artist-photo">
+        <div id="artist-photo" >
             <div id="photo1" alt="Artist at work"></div>
             <div id="photo2" alt="Artist at work"></div>
         </div>

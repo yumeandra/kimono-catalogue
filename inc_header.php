@@ -7,7 +7,7 @@
                 <li class="col-1"><a href="index-kimono-project-page.php">KI-MONO PROJECT</a></li>
                 <li class="col-1"><a href="index-catalogue-page.php">CATALOGUE</a></li>
                 <li class="col-1"><a href="index-exhibitions-page.php">EXHIBITIONS</a></li>
-                <li class="col-1"><a href="index-building-space.php">PERFORMANCES</a></li>
+                <li class="col-1"><a href="index-performances-page.php">PERFORMANCES</a></li>
                 <li class="col-1"><a href="index-building-space.php">BUY A PIECE</a></li>
             </ul>
             <div id="home_page"><a href="index.php"><img src="images/home_w32.png"/></a></div>
